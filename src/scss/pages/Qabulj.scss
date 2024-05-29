@@ -1,0 +1,294 @@
+@import'../global.scss';
+
+.Qabul {
+    width: 100%;
+    // margin-top: 100px;
+
+    .container {
+        max-width: 1800px;
+        margin: 0 auto;
+
+        .qabul {
+            width: 100%;
+            height: 1300px;
+            // border: $border;
+            background-color: rgb(101, 172, 101);
+            border-radius: 40px;
+            background-image: url(https://optim.tildacdn.one/tild3462-6538-4133-b535-663961343062/-/format/webp/e43f4acf-dbd7-412d-b.png);
+
+            .jarayon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 100px 0;
+
+                h1 {
+                    font-family: 'Monsterrat', sans-serif;
+                    font-size: 60px;
+                    color: white;
+                    font-weight: 800;
+                }
+            }
+
+            .belgi1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 30%;
+                // border: $border;
+
+                .strelka {
+                    display: flex;
+                    align-items: center;
+                    // border: $border;
+                    width: 60%;
+                    height: 100%;
+                    background-image: url(https://optim.tildacdn.one/tild3237-3335-4336-a364-306235353837/-/cover/954x372/center/center/-/format/webp/ar.png);
+                    background-repeat: no-repeat;
+                    background-size: 70%;
+                    background-position: 100%;
+                    margin-left: 100px;
+
+                    .fanlar {
+                        width: 650px;
+                        height: 272px;
+                        // border: $border;
+                        border-radius: 30px;
+                        background-color: white;
+
+                        .farzand {
+                            padding: 50px 50px;
+
+                            h1 {
+                                color: #7b48a3;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 32px;
+                                font-weight: 800;
+                            }
+
+                            p {
+                                margin-top: 15px;
+                                color: black;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 24px;
+                                font-weight: 400;
+
+                            }
+
+                        }
+
+                        .number1 {
+                            display: flex;
+                            align-items: center;
+                            padding: 0 50px;
+
+                            button {
+                                width: 120px;
+                                height: 120px;
+                                border-radius: 50%;
+                                border: none;
+                                background-color: #7b48a3;
+                                color: white;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 56px;
+                                font-weight: 700;
+                            }
+
+                        }
+                    }
+                }
+
+                .strelkaa {
+                    display: flex;
+                    align-items: center;
+                    // border: $border;
+                    width: 40%;
+
+                    background-repeat: no-repeat;
+                    background-size: 70%;
+                    background-position: 100%;
+
+                    .fanlar {
+                        width: 650px;
+                        height: 272px;
+                        // border: $border;
+                        border-radius: 30px;
+                        background-color: white;
+
+                        .farzand {
+                            padding: 50px 50px;
+
+                            h1 {
+                                color: #7b48a3;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 32px;
+                                font-weight: 800;
+                            }
+
+                            p {
+                                margin-top: 15px;
+                                color: black;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 24px;
+                                font-weight: 400;
+
+                            }
+
+                        }
+
+                        .number1 {
+                            display: flex;
+                            align-items: center;
+                            padding: 0 50px;
+
+                            button {
+                                width: 120px;
+                                height: 120px;
+                                border-radius: 50%;
+                                border: none;
+                                background-color: #7b48a3;
+                                color: white;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 56px;
+                                font-weight: 700;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .belgi {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 45%;
+                // border: $border;
+
+                .strelka1 {
+                    display: flex;
+                    align-items: end;
+                    justify-content: end;
+                    // border: $border;
+                    width: 50%;
+                    height: 100%;
+
+
+
+                    .fanlar1 {
+                        width: 650px;
+                        height: 272px;
+                        // border: $border;
+                        border-radius: 30px;
+                        background-color: white;
+                        margin-bottom: 80px;
+
+                        .farzand {
+                            padding: 50px 50px;
+
+                            h1 {
+                                color: #115999;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 32px;
+                                font-weight: 800;
+                            }
+
+                            p {
+                                margin-top: 15px;
+                                color: black;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 24px;
+                                font-weight: 400;
+
+                            }
+
+                        }
+
+                        .number1 {
+                            display: flex;
+                            align-items: center;
+                            padding: 0 50px;
+
+                            button {
+                                width: 120px;
+                                height: 120px;
+                                border-radius: 50%;
+                                border: none;
+                                background-color: #115999;
+                                color: white;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 56px;
+                                font-weight: 700;
+                            }
+
+                        }
+                    }
+                }
+
+                .strelka2 {
+                    display: flex;
+                    align-items: start;
+                    justify-content: end;
+                    // border: $border;
+                    width: 50%;
+                    height: 100%;
+                    background-image: url(https://optim.tildacdn.one/tild3163-3337-4831-b433-396461633637/-/cover/714x674/center/center/-/format/webp/c25133a0-1c7a-4179-9.png);
+                    background-repeat: no-repeat;
+                    background-size: 75%;
+                    background-position: 100%;
+                    margin-right: 100px;
+
+                    .fanlar {
+                        width: 650px;
+                        height: 272px;
+                        // border: $border;
+                        border-radius: 30px;
+                        background-color: white;
+
+                        .farzand {
+                            padding: 50px 50px;
+
+                            h1 {
+                                color: #ffb715;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 32px;
+                                font-weight: 800;
+                            }
+
+                            p {
+                                margin-top: 15px;
+                                color: black;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 24px;
+                                font-weight: 400;
+
+                            }
+
+                        }
+
+                        .number1 {
+                            display: flex;
+                            align-items: center;
+                            padding: 0 50px;
+
+                            button {
+                                width: 120px;
+                                height: 120px;
+                                border-radius: 50%;
+                                border: none;
+                                background-color: #ffb715;
+                                color: white;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 56px;
+                                font-weight: 700;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

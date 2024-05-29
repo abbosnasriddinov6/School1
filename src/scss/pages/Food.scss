@@ -1,0 +1,219 @@
+@import'../global.scss';
+
+.Section13 {
+    margin-top: 100px;
+    width: 100%;
+
+    .container {
+        max-width: 1800px;
+        margin: 0 auto;
+
+        .section13 {
+            width: 100%;
+            height: 1000px;
+            // border: $border;
+
+            .maktab {
+                display: flex;
+                width: 100%;
+                height: 50%;
+                // border: $border;
+
+                .vaqtga {
+
+                    width: 65%;
+                    height: 100%;
+                    // border: $border;
+
+                    .gooo {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 15px;
+                        width: 100%;
+                        height: 68%;
+                        // border: $border;
+
+                        .sinflarb1 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 900px;
+                            height: 60px;
+                            background-color: #f4e5ff;
+                            border-radius: 30px;
+
+                            h2 {
+                                color: #7b48a3;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 32px;
+                            }
+                        }
+
+                        .sinflarb2 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 1000px;
+                            height: 110px;
+                            background-color: #f4e5ff;
+                            border-radius: 25px;
+
+                            p {
+                                display: flex;
+                                align-items: center;
+                                flex-direction: column;
+                                color: black;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 24px;
+                            }
+                        }
+
+                        .sinflarb3 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 600px;
+                            height: 60px;
+                            background-color: #f4e5ff;
+                            border-radius: 30px;
+
+                            p {
+                                color: black;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 22px;
+                            }
+                        }
+                    }
+
+                    .soat {
+                        margin-top: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 20px;
+
+                        img {
+                            width: 100px;
+                            height: 100px;
+                        }
+
+                        h1 {
+                            font-family: 'Monsterrat', sans-serif;
+                            font-size: 66px;
+                            color: #7b48a3;
+                        }
+                    }
+                }
+
+                .rasmga {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 35%;
+                    height: 100%;
+                    background-image: url(https://optim.tildacdn.one/tild3030-3138-4639-a237-616361643064/-/cover/764x560/center/center/-/format/webp/58b50acc-4668-4c67-9.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .vaqtga {
+
+                    width: 65%;
+                    height: 100%;
+                    // border: $border;
+
+                    .gooo {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 15px;
+                        width: 100%;
+                        height: 68%;
+                        // border: $border;
+
+                        .sinflarb12 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 900px;
+                            height: 60px;
+                            background-color: #e5f3ff;
+                            border-radius: 30px;
+
+                            h2 {
+                                color: #115999;
+                                font-family: 'Monsterrat', sans-serif;
+                                font-size: 32px;
+                            }
+                        }
+
+                        .divvv {
+                            width: 98%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 30px;
+
+                            .sinflarb31 {
+                                width: 550px;
+                                height: 170px;
+                                border-radius: 30px;
+                                background-color: #e5f3ff;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                flex-direction: column;
+                                gap: 20px;
+
+                                p {
+                                    display: flex;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    font-family: 'Monsterrat', sans-serif;
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+                    .soat2 {
+                        margin-top: 60px;
+                        display: flex;
+                        align-items: center;
+
+                        justify-content: end;
+                        gap: 20px;
+
+                        img {
+                            width: 100px;
+                            height: 100px;
+                        }
+
+                        h1 {
+                            font-family: 'Monsterrat', sans-serif;
+                            font-size: 66px;
+                            color: #115999;
+                        }
+                    }
+                }
+
+                .rasmga1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 35%;
+                    height: 100%;
+                    background-image: url(https://optim.tildacdn.one/tild3835-3364-4435-b533-633761656164/-/cover/764x560/center/center/-/format/webp/c7f3bdd8-d091-410b-9.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}

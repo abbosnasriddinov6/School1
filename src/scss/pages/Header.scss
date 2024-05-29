@@ -1,0 +1,69 @@
+@import'../global.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.head {
+    width: 100%;
+
+    // border: $border;
+    .container {
+        max-width: 1800px;
+        margin: 0 auto;
+
+        .Header {
+            width: 100%;
+            // border: $border;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .Logo {
+                padding: 25px 25px;
+            }
+
+            ul {
+                display: flex;
+                gap: 25px;
+
+                li {
+                    list-style: none;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                }
+            }
+
+            .buttons {
+                display: flex;
+                gap: 15px;
+
+                .button1 {
+                    width: 180px;
+                    height: 40px;
+                    background: none;
+                    border: 2.5px solid green;
+                    border-radius: 40px;
+                    color: rgb(15, 99, 23);
+                    cursor: pointer;
+                    transition: 0.5s;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                    &:hover {
+                        background-color: green;
+                        color: white;
+                    }
+                }
+
+                .button2 {
+                    width: 40px;
+                    height: 40px;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
