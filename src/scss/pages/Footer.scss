@@ -1,0 +1,114 @@
+@import '../global.scss';
+
+.footer {
+    max-width: 1440px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(54, 184, 114);
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
+.connect-main {}
+
+.connect {
+    font-size: 60px;
+    color: white;
+    max-width: 400px;
+}
+
+.link-all {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    margin: 30px auto;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: #38bb8e;
+}
+
+.address {
+    color: white;
+    font-size: 25px;
+    margin: 15px auto;
+    max-width: 400px;
+}
+
+.address-text {
+    color: white;
+    font-size: 18px;
+}
+
+.connect-data {
+    display: block;
+    margin: 10px 0;
+    background-color: white;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px 10px;
+    border-radius: 30px;
+}
+
+.connect-select {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 10px;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+
+.connect-btn {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 183, 21);
+    color: white;
+    padding: 20px 10px;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    border: none;
+}
+
+.send_btn {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+
+.map {
+    min-width: 400px;
+    max-width: 1440px;
+    height: 100vh;
+
+}
