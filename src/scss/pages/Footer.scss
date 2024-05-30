@@ -1,17 +1,18 @@
 @import '../global.scss';
 
 .footer {
-    max-width: 1440px;
+    // max-width: 1440px;
     margin: 80px auto;
-    display: flex;
+    // display: flex;
     align-items: center;
+    
     flex-wrap: wrap;
     background-color: rgb(54, 184, 114);
     border-radius: 20px;
     padding: 20px 50px;
 }
 
-.connect-main {}
+
 
 .connect {
     font-size: 60px;
@@ -28,15 +29,20 @@
 
 .links {
     display: flex;
+    align-items: center;
     gap: 10px;
     padding: 5px 10px;
     border-radius: 5px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+    transition: all .3s;
 }
 
 .links:hover {
     background-color: #38bb8e;
+    color: black;
+
 }
 
 .address {
@@ -62,7 +68,7 @@
 }
 
 .connect-select {
-    max-width: 300px;
+    max-width: 500px;
     display: flex;
     align-items: center;
     font-size: 16px;
@@ -74,20 +80,27 @@
 }
 
 .connect-btn {
-    max-width: 300px;
+    max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 183, 21);
     color: white;
-    padding: 20px 10px;
+    padding: 20px;
     margin: 20px 0;
     border-radius: 30px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.connect-btn:hover {
+    background-color: rgb(220, 149, 17);
 }
 
 .data {
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -107,8 +120,25 @@ input {
 }
 
 .map {
-    min-width: 400px;
-    max-width: 1440px;
-    height: 100vh;
+    // min-width: 1400px;
+    width: 90vw;
+    height: 300px;
+
+
+    .map-inside{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .map{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .connect{
+        font-size: 35px;
+    }
 
 }
