@@ -37,7 +37,7 @@ const Qabul = () => {
                                     <option value="O'rta sinf (5-8)">O'rta sinf (5-8)</option>
                                     <option value="Katta sinf (9-11)">Katta sinf (9-11)</option>
                                 </select>
-                                <input type="number" placeholder='99 999 99 99' />
+                                <input type="number" placeholder='+998 99 999 99 99' />
                                 <button>Ariza topshirish</button>
                             </div>
                         </div>
