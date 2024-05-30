@@ -64,7 +64,7 @@ const Footer = () => {
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47974.45278308441!2d69.284963643221!3d41.27832636051009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef57d146f4803%3A0x72f4619de5ab1ede!2z0K_RiNC90LDQsdCw0LTRgdC60LjQuSDRgNCw0LnQvtC9LCDQotCw0YjQutC10L3Rgiwg0KLQsNGI0LrQtdC90YLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1716908041583!5m2!1sru!2s"></iframe>
               </div>
           </div> */}
-            <section className="text-white body-font bg-[#36b872] border-r-4 mt-[70px]">
+            <section className="text-white body-font bg-[#36b872] border-r-4 mt-[100px]">
                 <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
                     <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>

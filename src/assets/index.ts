@@ -8,6 +8,9 @@ import acceptance from './images/acceptance.png';
 import blog from './images/blog.png';
 import boboy from './images/boboy.jpg';
 import opacha from './images/opacha.jpg';
+import plus from './images/plus.png';
+import minus from './images/minus.png';
+import about from './images/about.png';
 
 
-export { logo, car, clock, food, money, teacher, acceptance, blog, boboy, opacha };
+export { logo, car, clock, food, money, teacher, acceptance, blog, boboy, opacha, plus, minus, about };

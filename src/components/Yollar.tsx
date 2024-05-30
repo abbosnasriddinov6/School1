@@ -1,4 +1,4 @@
-import { acceptance, blog, clock, food, money, teacher } from '@/assets'
+import { about, acceptance, blog, clock, food, money, teacher } from '@/assets'
 import Image from 'next/image'
 import React from 'react'
 import '../scss/pages/Yollar.scss'
@@ -25,6 +25,7 @@ const Yollar = () => {
                         <Link href='/about'>
                             <div className='cardlarb2'>
                                 <h1>Maktabimiz </h1>
+                                <Image src={about} alt="" />
                                 <h1>haqida</h1>
                             </div>
                         </Link>

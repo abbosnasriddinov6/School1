@@ -15,9 +15,8 @@ const Header = () => {
                             </div>
                             <ul>
                                 <Link href='/about'><li>Maktab haqida</li></Link>
-                                <li>Stipendiyalar</li>
-                                <li>Narxlar</li>
-                                <li>Qabuk Jarayoni</li>
+                                <Link href='/price'><li>Stipendiyalar</li></Link>
+                                <Link href='/qabuljarayon'><li>Qabuk Jarayoni</li></Link>
                                 <li>Bog'lanish</li>
                                 <li>Portal</li>
                             </ul>
