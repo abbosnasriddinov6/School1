@@ -80,7 +80,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10  max-w-[1800px] ">
+      <div className="mt-10  max-w-[1440px] ">
         <h2 className="flex justify-center lg:text-[50px] text-[30px] py-4 font-semibold">Nima uchun bizning maktab?</h2>
         <div className="flex items-center gap-5">
           <div className="grid xs:grid-cols-2 gap-5">
