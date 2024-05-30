@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../scss/pages/Qabulj.scss'
+import Qabul from '@/components/Qabul'
 const Qabuljarayon = () => {
   return (
      <>
@@ -51,6 +52,7 @@ const Qabuljarayon = () => {
                   </div>
               </div>
           </div>
+          <Qabul/>
      </>
   )
 }

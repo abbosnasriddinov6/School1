@@ -9,84 +9,86 @@
         max-width: 1440px;
         margin: 0 auto;
 
-        .qale {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 90%;
-            margin: 0 auto;
-            // background-color: black;
+      
 
-
-
-
-        }
-
-        .Header {
-            width: 100%;
-            // border: $border;
-            // border: 1px solid;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            position: fixed;
-            left: 0;
-            top: 0;
-            right: 0;
-            background-color: white;
-            z-index: 20;
-
-            // background: rgba(255, 255, 255, 0.8);
-
-
-            .Logo {
-                padding: 25px 25px;
-            }
-
-            ul {
-                display: flex;
-                gap: 25px;
-
-                li {
-                    list-style: none;
-                    font-family: "Montserrat", sans-serif;
-                    font-size: 16px;
-                }
-            }
-
-            .buttons {
-                display: flex;
-                gap: 15px;
-
-                .button1 {
-                    width: 180px;
-                    height: 40px;
-                    background: none;
-                    border: 2.5px solid green;
-                    border-radius: 40px;
-                    color: rgb(15, 99, 23);
-                    cursor: pointer;
-                    transition: 0.5s;
-                    font-family: "Montserrat", sans-serif;
-                    font-size: 16px;
-                    font-weight: 600;
-
-                    &:hover {
-                        background-color: green;
-                        color: white;
-                    }
-                }
-
-                .button2 {
-                    width: 40px;
-                    height: 40px;
-                    background: none;
-                    border: none;
-                    cursor: pointer;
-                    font-family: "Montserrat", sans-serif;
-                    font-size: 16px;
-                }
-            }
-        }
+       
     }
+         .Header {
+             width: 100%;
+             // border: $border;
+             // border: 1px solid;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             position: fixed;
+             left: 0;
+             top: 0;
+             right: 0;
+             background-color: white;
+             z-index: 20;
+    
+             // background: rgba(255, 255, 255, 0.8);
+            .qale {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 90%;
+                    margin: 0 auto;
+                    // background-color: black;
+            
+            
+            
+            
+                }
+    
+    
+             .Logo {
+                 padding: 25px 25px;
+             }
+    
+             ul {
+                 display: flex;
+                 gap: 25px;
+    
+                 li {
+                     list-style: none;
+                     font-family: "Montserrat", sans-serif;
+                     font-size: 16px;
+                 }
+             }
+    
+             .buttons {
+                 display: flex;
+                 gap: 15px;
+    
+                 .button1 {
+                     width: 180px;
+                     height: 40px;
+                     background: none;
+                     border: 2.5px solid green;
+                     border-radius: 40px;
+                     color: rgb(15, 99, 23);
+                     cursor: pointer;
+                     transition: 0.5s;
+                     font-family: "Montserrat", sans-serif;
+                     font-size: 16px;
+                     font-weight: 600;
+    
+                     &:hover {
+                         background-color: green;
+                         color: white;
+                     }
+                 }
+    
+                 .button2 {
+                     width: 40px;
+                     height: 40px;
+                     background: none;
+                     border: none;
+                     cursor: pointer;
+                     font-family: "Montserrat", sans-serif;
+                     font-size: 16px;
+                 }
+             }
+         }
 }
