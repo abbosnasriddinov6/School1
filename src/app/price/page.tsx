@@ -58,12 +58,7 @@ const page = () => {
                           </div>
                           <div className="div12"></div>
                       </div>
-                      <div className="tolov">
-                          <div className="sariq">
-                              <h1>Stipendiyalar, to'lov summalari va qo'shimcha qulayliklar haqida batafsil tanishing</h1>
-                              <button>Batafsil</button>
-                          </div>
-                      </div>
+                    
                   </div>
               </div>
           </div>

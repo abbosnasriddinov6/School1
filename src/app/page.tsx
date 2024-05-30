@@ -6,7 +6,7 @@ import Qabul from '@/components/Qabul'
 const page = () => {
   return (
     <>
-    <div>
+    <div >
       <Home/>
       <Yollar/>
       <Qabul/>

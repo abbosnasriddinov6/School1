@@ -1,10 +1,11 @@
 @import'../global.scss';
+
 .Section4 {
     margin-top: 80px;
     width: 100%;
 
     .container {
-        max-width: 1800px;
+        max-width: 1440px;
         margin: 0 auto;
 
         // border: $border;
@@ -13,7 +14,7 @@
             align-items: center;
             justify-content: center;
             width: 100%;
-            height: 700px;
+            height: 600px;
 
             // border: $border;
             .green {
@@ -32,23 +33,25 @@
                     // border: $border;
 
                     h1 {
-                        padding: 130px 175px;
+                        padding: 100px 155px;
                         color: white;
                         font-family: 'Monsterrat', sans-serif;
-                        font-size: 90px;
-                        width: 85%;
+                        font-size: 50px;
                         // border: $border;
-                        line-height: 90px;
+                        font-weight: 700;
+                        width: 100%;
+                        // border: 1px solid;
                     }
 
                     h3 {
                         margin-top: -40px;
-                        padding: 0 180px;
                         color: white;
                         font-family: 'Monsterrat', sans-serif;
-                        font-size: 28px;
+                        font-size: 22px;
                         font-weight: 400;
                         line-height: 40px;
+                        width: 80%;
+                        margin-left: 150px;
 
                     }
                 }
@@ -67,8 +70,8 @@
                         border: none;
                         outline: none;
                         border-radius: 40px;
-                        width: 465px;
-                        height: 80px;
+                        width: 420px;
+                        height: 60px;
                         border: 1px solid red !important;
                         background-color: rgb(255, 255, 255);
                         color: rgb(17, 17, 17);
@@ -79,8 +82,8 @@
 
                     select {
                         border-radius: 40px;
-                        width: 503px;
-                        height: 80px;
+                        width: 420px;
+                        height: 60px;
                         border: 1px solid red !important;
                         background-color: rgb(255, 255, 255);
                         color: rgb(17, 17, 17);
@@ -92,8 +95,8 @@
 
                     button {
                         border-radius: 40px;
-                        width: 503px;
-                        height: 80px;
+                        width: 420px;
+                        height: 60px;
                         border: none;
                         background-color: #ffb715;
                         color: white;

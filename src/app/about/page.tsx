@@ -35,20 +35,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="beautiful">
-            <div className="beaty">
-              <div className="word">
-                <img src="" alt="topolmadim" />
-                <h1>Maktabimizda farzandingizning psixologik, aqliy va jismoniy rivojlanishi uchun barcha shart-sharoitlar mavjud</h1>
-              </div>
-              <div className="backround"></div>
-              <div className="bbutton">
-                <button>Batafsil</button>
-              </div>
-            </div>
-          </div>
-        </div>
+    
       </div>
       <div className="Infra">
         <div className="container">

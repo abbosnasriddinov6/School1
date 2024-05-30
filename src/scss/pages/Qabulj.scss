@@ -2,15 +2,15 @@
 
 .Qabul {
     width: 100%;
-    // margin-top: 100px;
+    margin-top: 110px;
 
     .container {
-        max-width: 1800px;
+        max-width: 1440px;
         margin: 0 auto;
 
         .qabul {
             width: 100%;
-            height: 1300px;
+            height: 1100px;
             // border: $border;
             background-color: rgb(101, 172, 101);
             border-radius: 40px;
@@ -20,7 +20,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding: 100px 0;
+                padding: 50px 0;
 
                 h1 {
                     font-family: 'Monsterrat', sans-serif;
@@ -37,8 +37,9 @@
                 width: 100%;
                 height: 30%;
                 // border: $border;
+                margin-left: -150px;
 
-                .strelka {
+                .strelka1 {
                     display: flex;
                     align-items: center;
                     // border: $border;
@@ -48,22 +49,22 @@
                     background-repeat: no-repeat;
                     background-size: 70%;
                     background-position: 100%;
-                    margin-left: 100px;
+                    // margin-left: 100px;
 
-                    .fanlar {
-                        width: 650px;
-                        height: 272px;
+                    .fanlar1 {
+                        width: 600px;
+                        height: 222px;
                         // border: $border;
                         border-radius: 30px;
                         background-color: white;
 
-                        .farzand {
-                            padding: 50px 50px;
+                        .farzand1 {
+                            padding: 30px 50px;
 
                             h1 {
                                 color: #7b48a3;
                                 font-family: 'Monsterrat', sans-serif;
-                                font-size: 32px;
+                                font-size: 26px;
                                 font-weight: 800;
                             }
 
@@ -71,7 +72,7 @@
                                 margin-top: 15px;
                                 color: black;
                                 font-family: 'Monsterrat', sans-serif;
-                                font-size: 24px;
+                                font-size: 20px;
                                 font-weight: 400;
 
                             }
@@ -99,67 +100,68 @@
                     }
                 }
 
-                .strelkaa {
-                    display: flex;
-                    align-items: center;
-                    // border: $border;
-                    width: 40%;
+                // .strelkaa {
+                //     display: flex;
+                //     align-items: center;
+                //     // border: $border;
+                //     width: 40%;
+                //     margin-left: -100px;
 
-                    background-repeat: no-repeat;
-                    background-size: 70%;
-                    background-position: 100%;
+                //     background-repeat: no-repeat;
+                //     background-size: 70%;
+                //     background-position: 100%;
 
-                    .fanlar {
-                        width: 650px;
-                        height: 272px;
-                        // border: $border;
-                        border-radius: 30px;
-                        background-color: white;
+                //     .fanlar {
+                //         width: 600px;
+                //         height: 222px;
+                //         // border: $border;
+                //         border-radius: 30px;
+                //         background-color: white;
 
-                        .farzand {
-                            padding: 50px 50px;
+                //         .farzand {
+                //             padding: 50px 50px;
 
-                            h1 {
-                                color: #7b48a3;
-                                font-family: 'Monsterrat', sans-serif;
-                                font-size: 32px;
-                                font-weight: 800;
-                            }
+                //             h1 {
+                //                 color: #7b48a3;
+                //                 font-family: 'Monsterrat', sans-serif;
+                //                 font-size: 26px;
+                //                 font-weight: 800;
+                //             }
 
-                            p {
-                                margin-top: 15px;
-                                color: black;
-                                font-family: 'Monsterrat', sans-serif;
-                                font-size: 24px;
-                                font-weight: 400;
+                //             p {
+                //                 margin-top: 15px;
+                //                 color: black;
+                //                 font-family: 'Monsterrat', sans-serif;
+                //                 font-size: 20px;
+                //                 font-weight: 400;
 
-                            }
+                //             }
 
-                        }
+                //         }
 
-                        .number1 {
-                            display: flex;
-                            align-items: center;
-                            padding: 0 50px;
+                //         .number1 {
+                //             display: flex;
+                //             align-items: center;
+                //             padding: 0 50px;
 
-                            button {
-                                width: 120px;
-                                height: 120px;
-                                border-radius: 50%;
-                                border: none;
-                                background-color: #7b48a3;
-                                color: white;
-                                font-family: 'Monsterrat', sans-serif;
-                                font-size: 56px;
-                                font-weight: 700;
-                            }
+                //             button {
+                //                 width: 110px;
+                //                 height: 110px;
+                //                 border-radius: 50%;
+                //                 border: none;
+                //                 background-color: #7b48a3;
+                //                 color: white;
+                //                 font-family: 'Monsterrat', sans-serif;
+                //                 font-size: 56px;
+                //                 font-weight: 700;
+                //             }
 
-                        }
-                    }
-                }
+                //         }
+                //     }
+                // }
             }
 
-            .belgi {
+            .belgi2 {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -167,7 +169,7 @@
                 height: 45%;
                 // border: $border;
 
-                .strelka1 {
+                .strelka2 {
                     display: flex;
                     align-items: end;
                     justify-content: end;
@@ -177,21 +179,21 @@
 
 
 
-                    .fanlar1 {
-                        width: 650px;
-                        height: 272px;
+                    .fanlar2 {
+                        width: 600px;
+                        height: 222px;
                         // border: $border;
                         border-radius: 30px;
                         background-color: white;
                         margin-bottom: 80px;
 
-                        .farzand {
-                            padding: 50px 50px;
+                        .farzand2 {
+                            padding: 20px 50px;
 
                             h1 {
                                 color: #115999;
                                 font-family: 'Monsterrat', sans-serif;
-                                font-size: 32px;
+                                font-size: 26px;
                                 font-weight: 800;
                             }
 
@@ -199,14 +201,14 @@
                                 margin-top: 15px;
                                 color: black;
                                 font-family: 'Monsterrat', sans-serif;
-                                font-size: 24px;
+                                font-size: 20px;
                                 font-weight: 400;
 
                             }
 
                         }
 
-                        .number1 {
+                        .number2 {
                             display: flex;
                             align-items: center;
                             padding: 0 50px;
@@ -227,7 +229,7 @@
                     }
                 }
 
-                .strelka2 {
+                .strelka3 {
                     display: flex;
                     align-items: start;
                     justify-content: end;
@@ -240,20 +242,20 @@
                     background-position: 100%;
                     margin-right: 100px;
 
-                    .fanlar {
-                        width: 650px;
-                        height: 272px;
+                    .fanlar3 {
+                        width: 600px;
+                        height: 222px;
                         // border: $border;
                         border-radius: 30px;
                         background-color: white;
 
-                        .farzand {
-                            padding: 50px 50px;
+                        .farzand3 {
+                            padding: 20px 50px;
 
                             h1 {
                                 color: #ffb715;
                                 font-family: 'Monsterrat', sans-serif;
-                                font-size: 32px;
+                                font-size: 26px;
                                 font-weight: 800;
                             }
 
@@ -261,14 +263,14 @@
                                 margin-top: 15px;
                                 color: black;
                                 font-family: 'Monsterrat', sans-serif;
-                                font-size: 24px;
+                                font-size: 20px;
                                 font-weight: 400;
 
                             }
 
                         }
 
-                        .number1 {
+                        .number3 {
                             display: flex;
                             align-items: center;
                             padding: 0 50px;
