@@ -35,7 +35,7 @@ const About = () => {
             </div>
           </div>
         </div>
-    
+
       </div>
       <div className="Infra">
         <div className="container">
@@ -80,51 +80,54 @@ const About = () => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       <div className="mt-10  max-w-[1440px] ">
         <h2 className="flex justify-center lg:text-[50px] text-[30px] py-4 font-semibold">Nima uchun bizning maktab?</h2>
         <div className="flex items-center gap-5">
           <div className="grid xs:grid-cols-2 gap-5">
             <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl relative group">
-=======
-      <div className="my-10  max-w-[1800px] mx-10 ">
-        <h2 className="flex w-full justify-center lg:text-[50px] text-[30px] py-4 font-semibold">Nima uchun bizning maktab?</h2>
-        <div className="flex items-center gap-5 w-full">
-          <div className="grid xl:grid-cols-2 sm:grid-cols-2 w-full  gap-5">
-            <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl  relative group">
->>>>>>> 385251458d355b7208877bee3247a22342466a7e
-              <i className="fa-solid fa-star-of-life absolute text-red-600 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
-              <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
-                mollitia neque porro qui similique sint! Amet, officia.</p>
             </div>
-            <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl relative group">
-              <i className="fa-solid fa-certificate absolute text-green-400 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
-              <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
-                mollitia neque porro qui similique sint! Amet, officia.</p>
-            </div>
-            <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl relative group">
-              <i className="fa-solid fa-virus absolute text-slate-400 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
-              <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
-                mollitia neque porro qui similique sint! Amet, officia.</p>
-            </div>
-            <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl relative group">
-              <i className="fa-solid fa-virus absolute text-orange-400 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
-              <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
-                mollitia neque porro qui similique sint! Amet, officia.</p>
+            <div className="my-10  max-w-[1800px] mx-10 ">
+              <h2 className="flex w-full justify-center lg:text-[50px] text-[30px] py-4 font-semibold">Nima uchun bizning maktab?</h2>
+              <div className="flex items-center gap-5 w-full">
+                <div className="grid xl:grid-cols-2 sm:grid-cols-2 w-full  gap-5">
+                  <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl  relative group">
+
+                    <i className="fa-solid fa-star-of-life absolute text-red-600 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
+                    <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
+                      mollitia neque porro qui similique sint! Amet, officia.</p>
+                  </div>
+                  <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl relative group">
+                    <i className="fa-solid fa-certificate absolute text-green-400 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
+                    <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
+                      mollitia neque porro qui similique sint! Amet, officia.</p>
+                  </div>
+                  <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl relative group">
+                    <i className="fa-solid fa-virus absolute text-slate-400 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
+                    <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
+                      mollitia neque porro qui similique sint! Amet, officia.</p>
+                  </div>
+                  <div className="bg-blue-400 sm:py-12 py-5 px-3 rounded-2xl relative group">
+                    <i className="fa-solid fa-virus absolute text-orange-400 top-[-13px] left-[-5px] md:text-4xl text-xl bg-white rounded-full group-hover:rotate-180 duration-500 px-4 py-2"></i>
+                    <h4 className="font-semibold my-2 ">Bolaning asl potensialini kashf qilamiz</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos incidunt molestias
+                      mollitia neque porro qui similique sint! Amet, officia.</p>
+                  </div>
+                </div>
+                <div>
+                  <Image className="xl:h-[400px] hidden xl:block xl:w-[700px]" src={opacha} alt="" />
+                </div>
+              </div>
             </div>
           </div>
-          <div>
-            <Image className="xl:h-[400px] hidden xl:block xl:w-[700px]" src={ opacha} alt="" />
           </div>
-        </div>
-      </div>
-      <Darsdantash/>
-    </>
-  )
+          </div>
+
+          <Darsdantash />
+        </>
+        )
 }
 
-export default About
+        export default About
