@@ -17,6 +17,7 @@ const Questions = () => {
     const [openitsde, setOpenItsde] = useState(true)
     const [openitsdf, setOpenItsdf] = useState(true)
     const [openitsdg, setOpenItsdg] = useState(true)
+    
     return (
         <>
             <div className='Questions'>
