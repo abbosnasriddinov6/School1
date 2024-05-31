@@ -2,7 +2,7 @@
 
 .Section1 {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
 
     .div {
         width: 100%;
@@ -23,8 +23,53 @@
                 gap: 50px;
                 width: 100%;
                 height: 800px;
+
                 // border: $border;
                 // border: 1px solid;
+                @media only screen and (max-width: 1300px) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 50px;
+                    width: 100%;
+                    height: 700px;
+                }
+
+                @media only screen and (max-width: 900px) {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 50px;
+                    width: 100%;
+
+                }
+
+                @media only screen and (max-width: 720px) {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 50px;
+                    width: 100%;
+
+                }
+
+                @media only screen and (max-width: 550px) {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 40px;
+                    width: 100%;
+                    height: 400px;
+
+                }
+
 
                 h1 {
                     display: flex;
@@ -35,6 +80,40 @@
                     font-family: 'Monsyerrat', sans-serif;
                     font-size: 86px;
                     font-weight: 800;
+
+                    @media only screen and (max-width: 1300px) {
+                        font-size: 60px;
+                    }
+
+                    @media only screen and (max-width: 900px) {
+
+                        font-size: 50px;
+
+                    }
+
+                    @media only screen and (max-width: 720px) {
+
+                        font-size: 40px;
+
+                    }
+
+                    @media only screen and (max-width: 550px) {
+
+                        font-size: 30px;
+
+                    }
+
+                    @media only screen and (max-width: 450px) {
+
+                        font-size: 25px;
+
+                    }
+
+                    @media only screen and (max-width: 350px) {
+
+                        font-size: 21px;
+
+                    }
                 }
 
                 h4 {
@@ -45,6 +124,41 @@
                     color: white;
                     font-family: 'Monsyerrat', sans-serif;
                     font-size: 26px;
+
+                    @media only screen and (max-width: 1300px) {
+                        font-size: 20px;
+                    }
+
+
+
+                    @media only screen and (max-width: 900px) {
+
+                        font-size: 17px;
+
+                    }
+
+                    @media only screen and (max-width: 720px) {
+
+                        font-size: 13px;
+
+                    }
+
+                    @media only screen and (max-width: 550px) {
+
+                        font-size: 11px;
+
+                    }
+
+                    @media only screen and (max-width: 450px) {
+
+                        font-size: 9px;
+
+                    }
+
+                    @media only screen and (max-width: 350px) {
+                        font-size: 7px;
+
+                    }
                 }
 
                 .blar {
@@ -52,6 +166,12 @@
                     align-items: center;
                     justify-content: center;
                     gap: 20px;
+
+                    @media only screen and (max-width: 450px) {
+                        display: flex;
+                        flex-direction: column;
+
+                    }
 
                     .ariza {
                         height: 80px;
@@ -63,6 +183,34 @@
                         font-size: 24px;
                         color: white;
                         cursor: pointer;
+
+                        @media only screen and (max-width: 1300px) {
+                            height: 60px;
+                            width: 250px;
+                            font-size: 20px;
+                        }
+
+                        @media only screen and (max-width: 900px) {
+                            height: 50px;
+                            width: 220px;
+                            font-size: 16px;
+
+                        }
+
+                        @media only screen and (max-width: 550px) {
+                            height: 40px;
+                            width: 180px;
+                            font-size: 14px;
+
+                        }
+
+                        @media only screen and (max-width: 450px) {
+                            height: 35px;
+                            width: 160px;
+                            font-size: 13px;
+
+                        }
+
 
                         &:hover {
                             background-color: #ff8562;
@@ -82,6 +230,34 @@
                         border: 4px solid white;
                         color: white;
 
+                        @media only screen and (max-width: 1300px) {
+                            height: 60px;
+                            width: 250px;
+                            font-size: 20px;
+                        }
+
+                        @media only screen and (max-width: 900px) {
+                            height: 50px;
+                            width: 220px;
+                            font-size: 16px;
+
+                        }
+
+
+                        @media only screen and (max-width: 550px) {
+                            height: 40px;
+                            width: 180px;
+                            font-size: 14px;
+
+                        }
+
+                        @media only screen and (max-width: 450px) {
+                            height: 35px;
+                            width: 160px;
+                            font-size: 13px;
+
+                        }
+
                         &:hover {
                             background-color: white;
                             color: black;
@@ -94,4 +270,76 @@
     }
 
 
+}
+
+@media only screen and (max-width: 1300px) {
+    .Section1 {
+        width: 100%;
+
+        .div {
+            width: 100%;
+            height: 90vh;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Section1 {
+        width: 100%;
+
+        .div {
+            width: 100%;
+            height: 80vh;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .Section1 {
+        width: 100%;
+
+        .div {
+            width: 100%;
+            height: 70vh;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .Section1 {
+        width: 100%;
+
+        .div {
+            width: 100%;
+            height: 50vh;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Section1 {
+        width: 100%;
+
+        .div {
+            width: 100%;
+            height: 45vh;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .Section1 {
+        width: 100%;
+
+        .div {
+            width: 100%;
+            height: 45vh;
+        }
+
+    }
 }

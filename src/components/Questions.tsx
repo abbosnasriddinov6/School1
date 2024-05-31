@@ -7,7 +7,7 @@ import { minus, plus } from '@/assets'
 
 const Questions = () => {
     const [openWord, setOpenWord] = useState(true)
-    const [openWords, setOpenWords] = useState(true)
+    const [openWords, setOpenWords] = useState(false)
     const [openit, setOpenIt] = useState(true)
     const [openits, setOpenIts] = useState(true)
     const [openitss, setOpenItss] = useState(true)

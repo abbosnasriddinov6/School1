@@ -3,7 +3,7 @@ import '../scss/pages/Footer.scss'
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import { FaChevronDown } from "react-icons/fa";
+// import { FaChevronDown } from "react-icons/fa";
 
 const Footer = () => {
     return (

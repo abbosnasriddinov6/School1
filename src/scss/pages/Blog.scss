@@ -4,6 +4,30 @@
     margin-top: 100px;
     width: 100%;
 
+    @media only screen and (max-width: 805px) {
+        margin-top: 0;
+    }
+
+    @media only screen and (max-width: 600px) {
+        margin-top: -20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        margin-top: -40px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        margin-top: -60px;
+    }
+
+    @media only screen and (max-width: 360px) {
+        margin-top: -150px;
+    }
+
+    @media only screen and (max-width: 330px) {
+        margin-top: -220px;
+    }
+
     .container {
         max-width: 1440px;
         margin: 0 auto;
@@ -11,6 +35,23 @@
         .section12 {
             width: 100%;
             height: 1500px;
+
+            @media only screen and (max-width: 805px) {
+                height: 2300px;
+            }
+
+            @media only screen and (max-width: 605px) {
+                height: 2200px;
+            }
+
+            @media only screen and (max-width: 450px) {
+                height: 2000px;
+            }
+
+            @media only screen and (max-width: 335px) {
+               height: 1800px;
+
+            }
 
             // border: $border;
             .blog {
@@ -28,6 +69,22 @@
                     font-family: 'Monsterrat', sans-serif;
                     font-size: 70px;
                     font-weight: 800;
+
+                    @media only screen and (max-width: 755px) {
+                        font-size: 50px;
+                    }
+
+                    @media only screen and (max-width: 600px) {
+                        font-size: 50px;
+                    }
+
+                    @media only screen and (max-width: 500px) {
+                        font-size: 40px;
+                    }
+
+                    @media only screen and (max-width: 360px) {
+                        font-size: 25px;
+                    }
                 }
 
                 p {
@@ -40,6 +97,29 @@
                     font-size: 26px;
                     font-weight: 200;
 
+                    @media only screen and (max-width: 755px) {
+                        font-size: 20px;
+                    }
+
+                    @media only screen and (max-width: 600px) {
+                        font-size: 16px;
+                    }
+
+                    @media only screen and (max-width: 500px) {
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (max-width: 450px) {
+                        font-size: 12px;
+                        text-align: center;
+                    }
+
+                    @media only screen and (max-width: 360px) {
+                        font-size: 9px;
+                        text-align: center;
+                    }
+
+
                 }
             }
 
@@ -47,17 +127,66 @@
                 display: grid;
                 grid-template-columns: auto auto auto;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: space-around;
                 width: 100%;
                 height: 80%;
                 gap: 20px;
+
                 // border: $border;
+                @media only screen and (max-width: 1500px) {
+                    display: grid;
+                    grid-template-columns: auto auto;
+
+                }
+
+                @media only screen and (max-width: 805px) {
+                    display: grid;
+                    grid-template-columns: auto;
+
+                }
+
+                // @media only screen and (max-width: 850px) {
+                //     display: grid;
+                //     grid-template-columns: auto;
+
+                // }
+
                 .kattacards {
                     width: 450px;
                     height: 500px;
                     // border: $border;
                     border-radius: 20px;
                     background-color: #e5f3ff;
+
+                    @media only screen and (max-width: 1000px) {
+                        width: 400px;
+                        height: 450px;
+
+                    }
+
+                    @media only screen and (max-width: 850px) {
+                        width: 380px;
+                        height: 420px;
+
+                    }
+
+                    @media only screen and (max-width: 450px) {
+                        width: 350px;
+                        height: 390px;
+
+                    }
+
+                    @media only screen and (max-width: 375px) {
+                        width: 300px;
+                        height: 340px;
+
+                    }
+
+                    @media only screen and (max-width: 335px) {
+                        width: 280px;
+                        height: 320px;
+
+                    }
 
                     .imagelar {
                         width: 100%;
@@ -77,6 +206,26 @@
                             font-family: 'Monsterrat', sans-serif;
                             font-size: 20px;
                             font-weight: 700;
+
+                            @media only screen and (max-width: 850px) {
+                                font-size: 16px;
+
+                            }
+
+                            @media only screen and (max-width: 450px) {
+                                font-size: 12px;
+
+                            }
+
+                            @media only screen and (max-width: 375px) {
+                                font-size: 10px;
+
+                            }
+
+                            @media only screen and (max-width: 335px) {
+                                font-size: 8px;
+
+                            }
                         }
 
                         h3 {
@@ -85,10 +234,39 @@
                             color: #111111;
                             font-family: 'HelveticaNeueCyr', Arial, sans-serif;
                             font-weight: 200;
+
+                            @media only screen and (max-width: 850px) {
+                                font-size: 15px;
+
+                            }
+
+                            @media only screen and (max-width: 450px) {
+                                font-size: 11px;
+
+                            }
+
+                            @media only screen and (max-width: 375px) {
+                                font-size: 9px;
+
+                            }
+
+                            @media only screen and (max-width: 335px) {
+                                font-size: 7px;
+
+                            }
                         }
                     }
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .Section12 {
+        width: 100%;
+
+
+
     }
 }

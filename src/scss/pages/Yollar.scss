@@ -4,6 +4,10 @@
     margin-top: 100px;
     width: 100%;
 
+    @media only screen and (max-width: 780px) {
+        margin-top: 50px;
+    }
+
     .container {
         max-width: 1440px;
         margin: 0 auto;
@@ -12,9 +16,54 @@
             display: grid;
             grid-template-columns: auto auto auto;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
             width: 100%;
             height: 800px;
+
+            @media only screen and (max-width: 1450px) {
+                display: grid;
+                grid-template-columns: auto auto;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                height: 1000px;
+            }
+
+            @media only screen and (max-width: 780px) {
+                display: grid;
+                grid-template-columns: auto;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                height: 2000px;
+            }
+
+            @media only screen and (max-width: 550px) {
+                display: grid;
+                grid-template-columns: auto;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                height: 1800px;
+            }
+
+            @media only screen and (max-width: 400px) {
+                display: grid;
+                grid-template-columns: auto;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                height: 1500px;
+            }
+
+            @media only screen and (max-width: 350px) {
+                display: grid;
+                grid-template-columns: auto;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                height: 1200px;
+            }
 
             // border: $border;
             .cardlarb1 {
@@ -29,6 +78,33 @@
                 border-radius: 40px;
                 background-color: white;
                 border: 6px solid green;
+
+                @media only screen and (max-width: 1450px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 780px) {
+                    width: 500px;
+                    height: 300px;
+                }
+
+                @media only screen and (max-width: 550px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 400px) {
+                    width: 320px;
+                    height: 220px;
+                }
+
+                @media only screen and (max-width: 350px) {
+                    width: 280px;
+                    height: 180px;
+                }
+
+
 
                 &:hover {
                     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -45,11 +121,20 @@
                     color: black;
                     font-family: 'Monsterrat', sans-serif;
                     font-size: 30px;
+
+                    @media only screen and (max-width: 400px) {
+                        font-size: 20px;
+                    }
                 }
 
                 img {
                     width: 80px;
                     height: 80px;
+
+                    @media only screen and (max-width: 400px) {
+                        width: 60px;
+                        height: 60px;
+                    }
                 }
 
                 .clock {
@@ -80,6 +165,32 @@
                 background-color: white;
                 border: 6px solid green;
 
+                @media only screen and (max-width: 1450px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 780px) {
+                    width: 500px;
+                    height: 300px;
+                }
+
+                @media only screen and (max-width: 550px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 400px) {
+                    width: 320px;
+                    height: 220px;
+                }
+
+                @media only screen and (max-width: 350px) {
+                    width: 280px;
+                    height: 180px;
+                    gap: 15px;
+                }
+
                 &:hover {
                     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
                     transition: 0.6s;
@@ -95,11 +206,21 @@
                     color: black;
                     font-family: 'Monsterrat', sans-serif;
                     font-size: 30px;
+
+                    @media only screen and (max-width: 400px) {
+                        font-size: 20px;
+                    }
                 }
-                img{
+
+                img {
                     width: 80px;
                     height: 80px;
-                    
+
+                    @media only screen and (max-width: 400px) {
+                        width: 60px;
+                        height: 60px;
+                    }
+
                 }
             }
 
@@ -116,6 +237,33 @@
                 background-color: white;
                 border: 6px solid green;
 
+                @media only screen and (max-width: 1450px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 780px) {
+                    width: 500px;
+                    height: 300px;
+                }
+
+                @media only screen and (max-width: 550px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 400px) {
+                    width: 320px;
+                    height: 220px;
+                    gap: 20px;
+                }
+
+                @media only screen and (max-width: 350px) {
+                    width: 280px;
+                    height: 180px;
+                    gap: 15px;
+                }
+
                 &:hover {
                     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
                     transition: 0.6s;
@@ -131,11 +279,20 @@
                     color: black;
                     font-family: 'Monsterrat', sans-serif;
                     font-size: 30px;
+
+                    @media only screen and (max-width: 400px) {
+                        font-size: 20px;
+                    }
                 }
 
                 img {
                     width: 75px;
                     height: 65px;
+
+                    @media only screen and (max-width: 400px) {
+                        width: 60px;
+                        height: 60px;
+                    }
                 }
             }
 
@@ -152,6 +309,31 @@
                 background-color: white;
                 border: 6px solid green;
 
+                @media only screen and (max-width: 1450px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 780px) {
+                    width: 500px;
+                    height: 300px;
+                }
+
+                @media only screen and (max-width: 550px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 400px) {
+                    width: 320px;
+                    height: 220px;
+                }
+
+                @media only screen and (max-width: 350px) {
+                    width: 280px;
+                    height: 180px;
+                }
+
                 &:hover {
                     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
                     transition: 0.6s;
@@ -167,11 +349,20 @@
                     color: black;
                     font-family: 'Monsterrat', sans-serif;
                     font-size: 30px;
+
+                    @media only screen and (max-width: 400px) {
+                        font-size: 20px;
+                    }
                 }
 
-                img{
+                img {
                     width: 40%;
                     height: 40%;
+
+                    @media only screen and (max-width: 400px) {
+                        width: 60px;
+                        height: 60px;
+                    }
                 }
             }
 
@@ -188,6 +379,31 @@
                 background-color: white;
                 border: 6px solid green;
 
+                @media only screen and (max-width: 1450px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 780px) {
+                    width: 500px;
+                    height: 300px;
+                }
+
+                @media only screen and (max-width: 550px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 400px) {
+                    width: 320px;
+                    height: 220px;
+                }
+
+                @media only screen and (max-width: 350px) {
+                    width: 280px;
+                    height: 180px;
+                }
+
                 &:hover {
                     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
                     transition: 0.6s;
@@ -203,12 +419,21 @@
                     color: black;
                     font-family: 'Monsterrat', sans-serif;
                     font-size: 30px;
+
+                    @media only screen and (max-width: 400px) {
+                        font-size: 20px;
+                    }
                 }
 
-                // img{
-                //     width: 75px;
-                //     height: 65px;
-                // }
+                img {
+                    // width: 75px;
+                    // height: 65px;
+
+                    @media only screen and (max-width: 400px) {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
             }
 
             .cardlarb6 {
@@ -224,6 +449,32 @@
                 background-color: white;
                 border: 6px solid green;
 
+                @media only screen and (max-width: 1450px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 780px) {
+                    width: 500px;
+                    height: 300px;
+                }
+
+                @media only screen and (max-width: 550px) {
+                    width: 360px;
+                    height: 260px;
+                }
+
+                @media only screen and (max-width: 400px) {
+                    width: 320px;
+                    height: 220px;
+                }
+
+                @media only screen and (max-width: 350px) {
+                    width: 280px;
+                    height: 180px;
+                }
+
+
                 &:hover {
                     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
                     transition: 0.6s;
@@ -239,15 +490,90 @@
                     color: black;
                     font-family: 'Monsterrat', sans-serif;
                     font-size: 30px;
+
+                    @media only screen and (max-width: 400px) {
+                        font-size: 20px;
+                    }
                 }
 
-                // img{
-                //     width: 75px;
-                //     height: 65px;
-                // }
+                img {
+                    // width: 75px;
+                    // height: 65px;
+
+                    @media only screen and (max-width: 400px) {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
             }
 
 
+        }
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .Section8 {
+        width: 100%;
+
+        .section8 {
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Section8 {
+        width: 100%;
+
+        .section8 {
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .Section8 {
+        width: 100%;
+
+        .section8 {
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .Section8 {
+        width: 100%;
+
+        .section8 {
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Section8 {
+        width: 100%;
+
+        .section8 {
+            width: 100%;
+            // background-color: aqua;
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .Section8 {
+        width: 100%;
+
+        .section8 {
+            width: 100%;
+            // background-color: aqua;
         }
     }
 }
