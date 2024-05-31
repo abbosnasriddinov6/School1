@@ -11,7 +11,7 @@ const Darsdantash = () => {
 
 
                   <div className="grid lg:grid-cols-3 sm:grid-cols-2 w-full mx-auto gap-5">
-                      <div className="px-5 bg-pink-300 rounded-3xl relative group">
+                      <div className="px-5 bg-[#e5f3ff] rounded-3xl relative group">
                           <div className="">
                               <i className="fa-solid fa-futbol absolute top-[-10px] left-[-10px] py-4 px-3 md:text-4xl text-xl bg-white text-cyan-400   rounded-full group-hover:rotate-90 duration-500"></i>
                               <h3 className="font-semibold pt-16">Sport mashg'ulotlari</h3>
@@ -35,9 +35,9 @@ const Darsdantash = () => {
                                   <li>Futbol</li>
                               </ul>
                           </div>
-                          <img className="rounded-3xl lg:mt-48 bg-contain sm:mt-32 mt-16 py-4 " src={boboy} alt="" />
+                          <Image className="rounded-3xl lg:mt-48 bg-contain sm:mt-32 mt-16 py-4 " src={boboy} alt="" />
                       </div>
-                      <div className="px-5 bg-cyan-300 rounded-3xl relative group">
+                      <div className="px-5  rounded-3xl relative group">
                           <div className="">
                               <i className="fa-solid fa-futbol absolute top-[-10px] left-[-10px] py-4 px-3 md:text-4xl text-xl bg-white text-cyan-400   rounded-full group-hover:rotate-90 duration-500"></i>
                               <h3 className="font-semibold pt-16">Sport mashg'ulotlari</h3>
@@ -48,7 +48,7 @@ const Darsdantash = () => {
                                   <li>Futbol</li>
                               </ul>
                           </div>
-                          <img className="rounded-3xl lg:mt-48 bg-contain sm:mt-32 mt-16 py-4 " src={boboy} alt="" />
+                          <Image className="rounded-3xl lg:mt-48 bg-contain sm:mt-32 mt-16 py-4 " src={boboy} alt="" />
                       </div>
 
                   </div>
