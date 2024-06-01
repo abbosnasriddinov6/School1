@@ -5,9 +5,9 @@ import React from 'react'
 const Darsdantash = () => {
     return (
         <>
-            <div className="my-10 container mx-auto">
+            <div className="lg:my-10 container mx-auto max-w-[1440px] mx-auto   ">
                 <div>
-                    <h2 className="flex justify-center md:text-[50px] text-[30px] font-semibold my-10">Darsdan tashqari mashg'ulotlar</h2>
+                    <h2 className="flex justify-center md:text-[50px] text-[30px] font-semibold mb-4 lg:my-10">Darsdan tashqari mashg'ulotlar</h2>
 
 
                     <div className="grid lg:grid-cols-3 sm:grid-cols-2 w-full mx-auto gap-5">
@@ -36,7 +36,7 @@ const Darsdantash = () => {
                                  
                                 </ul>
                             </div>
-                            <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-16 py-4 " src={boboy}  alt="" />
+                            <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-1 py-4 " src={boboy}  alt="" />
                         </div>
                         <div className="px-5 bg-[#fff7e5] rounded-3xl relative group flex flex-col justify-between">
                             <div className="">
@@ -66,7 +66,7 @@ const Darsdantash = () => {
 
 
 
-                            <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-16 py-4 " src={boboy} alt="" />
+                            <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-1 py-4 " src={boboy} alt="" />
                         </div>
                         <div className="px-5 bg-[#f3e5ff] rounded-3xl relative group flex flex-col justify-between">
                             <div className="">
@@ -79,7 +79,7 @@ const Darsdantash = () => {
                                     <li>Yilda faqatgina 2 marta ota-onalar majlisi</li>
                                 </ul>
                             </div>
-                            <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-16 py-4 " src={boboy} alt="" />
+                            <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-1 py-4 " src={boboy} alt="" />
                         </div>
 
                     </div>
