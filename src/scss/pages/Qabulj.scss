@@ -16,6 +16,39 @@
             border-radius: 40px;
             background-image: url(https://optim.tildacdn.one/tild3462-6538-4133-b535-663961343062/-/format/webp/e43f4acf-dbd7-412d-b.png);
 
+            @media only screen and (max-width: 1150px) {
+                height: 1200px;
+            }
+
+            @media only screen and (max-width: 750px) {
+                width: 600px;
+                margin: 0 auto;
+                height: 1100px;
+            }
+
+            @media only screen and (max-width: 625px) {
+                width: 500px;
+                margin: 0 auto;
+                height: 1100px;
+            }
+
+            @media only screen and (max-width: 520px) {
+                width: 400px;
+                margin: 0 auto;
+                height: 900px;
+            }
+
+            @media only screen and (max-width: 430px) {
+                width: 320px;
+                margin: 0 auto;
+                height: 700px;
+            }
+            @media only screen and (max-width: 340px) {
+                width: 280px;
+                margin: 0 auto;
+                height: 700px;
+            }
+
             .jarayon {
                 display: flex;
                 align-items: center;
@@ -27,6 +60,14 @@
                     font-size: 60px;
                     color: white;
                     font-weight: 800;
+
+                    @media only screen and (max-width: 520px) {
+                        font-size: 30px;
+                    }
+
+                    @media only screen and (max-width: 430px) {
+                        font-size: 26px;
+                    }
                 }
             }
 
@@ -39,6 +80,18 @@
                 // border: $border;
                 margin-left: -150px;
 
+
+                @media only screen and (max-width: 1150px) {
+                    margin-left: 0;
+                    height: 25%;
+                }
+
+                @media only screen and (max-width: 520px) {
+                    height: 20%;
+                }
+
+
+
                 .strelka1 {
                     display: flex;
                     align-items: center;
@@ -49,7 +102,16 @@
                     background-repeat: no-repeat;
                     background-size: 70%;
                     background-position: 100%;
+
                     // margin-left: 100px;
+                    @media only screen and (max-width: 1150px) {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        height: 100%;
+                        background: none;
+                    }
 
                     .fanlar1 {
                         width: 600px;
@@ -57,6 +119,26 @@
                         // border: $border;
                         border-radius: 30px;
                         background-color: white;
+
+                        @media only screen and (max-width: 1150px) {
+                            width: 700px;
+                            height: 262px;
+                        }
+
+                        @media only screen and (max-width: 750px) {
+                            width: 400px;
+                            height: 220px;
+                        }
+
+                        @media only screen and (max-width: 520px) {
+                            width: 300px;
+                            height: 180px;
+                        }
+
+                        @media only screen and (max-width: 430px) {
+                            width: 260px;
+                            height: 140px;
+                        }
 
                         .farzand1 {
                             padding: 30px 50px;
@@ -66,6 +148,18 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 26px;
                                 font-weight: 800;
+
+                                @media only screen and (max-width: 750px) {
+                                    font-size: 20px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 430px) {
+                                    font-size: 10px;
+                                }
                             }
 
                             p {
@@ -74,6 +168,18 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 20px;
                                 font-weight: 400;
+
+                                @media only screen and (max-width: 750px) {
+                                    font-size: 16px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    font-size: 10px;
+                                }
+
+                                @media only screen and (max-width: 430px) {
+                                    font-size: 8px;
+                                }
 
                             }
 
@@ -94,6 +200,27 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 56px;
                                 font-weight: 700;
+
+                                @media only screen and (max-width: 750px) {
+                                    width: 90px;
+                                    height: 90px;
+                                    font-size: 36px;
+                                    margin-top: -20px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    width: 70px;
+                                    height: 70px;
+                                    font-size: 30px;
+                                    margin-top: -20px;
+                                }
+
+                                @media only screen and (max-width: 430px) {
+                                    width: 50px;
+                                    height: 50px;
+                                    font-size: 26px;
+                                    margin-top: -20px;
+                                }
                             }
 
                         }
@@ -167,7 +294,16 @@
                 justify-content: center;
                 width: 100%;
                 height: 45%;
+
                 // border: $border;
+                @media only screen and (max-width: 1150px) {
+                    height: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column-reverse;
+                }
+
 
                 .strelka2 {
                     display: flex;
@@ -176,6 +312,15 @@
                     // border: $border;
                     width: 50%;
                     height: 100%;
+
+                    @media only screen and (max-width: 1150px) {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 100%;
+                        height: 50%;
+                    }
 
 
 
@@ -187,6 +332,28 @@
                         background-color: white;
                         margin-bottom: 80px;
 
+                        @media only screen and (max-width: 1150px) {
+                            margin-bottom: 0;
+                            width: 700px;
+                            height: 262px;
+
+                        }
+
+                        @media only screen and (max-width: 750px) {
+                            width: 400px;
+                            height: 220px;
+                        }
+
+                        @media only screen and (max-width: 520px) {
+                            width: 300px;
+                            height: 180px;
+                        }
+
+                        @media only screen and (max-width: 520px) {
+                            width: 260px;
+                            height: 140px;
+                        }
+
                         .farzand2 {
                             padding: 20px 50px;
 
@@ -195,6 +362,18 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 26px;
                                 font-weight: 800;
+
+                                @media only screen and (max-width: 750px) {
+                                    font-size: 20px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 430px) {
+                                    font-size: 10px;
+                                }
                             }
 
                             p {
@@ -203,6 +382,18 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 20px;
                                 font-weight: 400;
+
+                                @media only screen and (max-width: 750px) {
+                                    font-size: 16px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    font-size: 10px;
+                                }
+
+                                @media only screen and (max-width: 430px) {
+                                    font-size: 8px;
+                                }
 
                             }
 
@@ -223,6 +414,27 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 56px;
                                 font-weight: 700;
+
+                                @media only screen and (max-width: 750px) {
+                                    width: 90px;
+                                    height: 90px;
+                                    font-size: 36px;
+                                    margin-top: -20px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    width: 70px;
+                                    height: 70px;
+                                    font-size: 30px;
+                                    margin-top: -10px;
+                                }
+
+                                @media only screen and (max-width: 430px) {
+                                    width: 50px;
+                                    height: 50px;
+                                    font-size: 26px;
+                                    margin-top: -20px;
+                                }
                             }
 
                         }
@@ -242,12 +454,41 @@
                     background-position: 100%;
                     margin-right: 100px;
 
+                    @media only screen and (max-width: 1150px) {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 0;
+                        background: none;
+                        flex-direction: column;
+                    }
+
                     .fanlar3 {
                         width: 600px;
                         height: 222px;
                         // border: $border;
                         border-radius: 30px;
                         background-color: white;
+
+                        @media only screen and (max-width: 1150px) {
+                            width: 700px;
+                            height: 262px;
+                        }
+
+                        @media only screen and (max-width: 750px) {
+                            width: 400px;
+                            height: 220px;
+                        }
+
+                        @media only screen and (max-width: 520px) {
+                            width: 300px;
+                            height: 180px;
+                        }
+
+                        @media only screen and (max-width: 520px) {
+                            width: 260px;
+                            height: 140px;
+                        }
 
                         .farzand3 {
                             padding: 20px 50px;
@@ -257,6 +498,17 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 26px;
                                 font-weight: 800;
+
+                                @media only screen and (max-width: 750px) {
+                                    font-size: 20px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    font-size: 14px;
+                                }
+                                @media only screen and (max-width: 430px) {
+                                    font-size: 10px;
+                                }
                             }
 
                             p {
@@ -265,6 +517,17 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 20px;
                                 font-weight: 400;
+
+                                @media only screen and (max-width: 750px) {
+                                    font-size: 16px;
+                                }
+
+                                @media only screen and (max-width: 550px) {
+                                    font-size: 10px;
+                                }
+                                @media only screen and (max-width: 430px) {
+                                    font-size: 8px;
+                                }
 
                             }
 
@@ -285,6 +548,25 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 56px;
                                 font-weight: 700;
+
+                                @media only screen and (max-width: 750px) {
+                                    width: 90px;
+                                    height: 90px;
+                                    font-size: 36px;
+                                }
+
+                                @media only screen and (max-width: 520px) {
+                                    width: 70px;
+                                    height: 70px;
+                                    font-size: 30px;
+                                    margin-top: 20px;
+                                }
+                                @media only screen and (max-width: 430px) {
+                                    width: 50px;
+                                    height: 50px;
+                                    font-size: 26px;
+                                    margin-top: 10px;
+                                }
                             }
 
                         }
@@ -292,5 +574,12 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .Qabul {
+        width: 100%;
+
     }
 }
