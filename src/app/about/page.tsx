@@ -4,7 +4,7 @@ import React from 'react'
 
 import '../../scss/pages/About.scss'
 import Darsdantash from '@/components/Darsdantash'
-import MaxsusTalim from '@/components/MaxsusTalim'  
+import MaxsusTalim from '@/components/MaxsusTalim'
 import Qoshimcha from '@/components/Qoshimcha'
 const About = () => {
   return (
@@ -16,6 +16,7 @@ const About = () => {
 
               <h1 className='font-bold hidden lg:block text-[50px] font-bold pt-4 my-8'>Maktab haqida</h1>
               <p className='lg:max-w-[800px] px-3 lg:px-0'>Maktabimiz zamonaviy o'qitish texnikasi, amaliy o'rganish tajribasi va tarbiyaviy muhitni o'z ichiga olgan holda ta'limga innovatsion yondashuvni ta'minlashga qaratilgan. Rahimov School o‘quvchilarga o‘z imkoniyatlarini to‘liq ochib berish va har tomonlama barkamol shaxs bo‘lib yetishishlariga yordam beradi.</p>
+             
               <h2 className='text-green-600 font-bold text-2xl py-4'>Chuqurlashtirilgan fanlar:</h2>
               <div className='flex gap-4'>
                 <div className='english'>
@@ -131,13 +132,13 @@ const About = () => {
       </div>
 
 
-    
 
-          <Darsdantash />
-          <MaxsusTalim/>
-          <Qoshimcha/>
-        </>
-        )
+
+      <Darsdantash />
+      <MaxsusTalim />
+      <Qoshimcha />
+    </>
+  )
 }
 
 export default About

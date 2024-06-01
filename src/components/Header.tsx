@@ -40,7 +40,6 @@ const Header = () => {
                             </nav>
                             <button className='button1'>+998 93 596 05 06</button>
                             <button className='button2'>Ru</button>
-                                <Image className='burger' src={bar} alt="" />
                         </div>
                     </div>
                 </div>
