@@ -14,6 +14,8 @@
             width: 100%;
             height: 700px;
 
+
+
             // border: $border;
             .leftside {
                 padding: 20px 0;
@@ -197,9 +199,14 @@
     }
 
 }
+
 .Infra {
     width: 100%;
     margin-top: 50px;
+
+    @media only screen and (max-width: 830px) {
+        margin-top: 500px;
+    }
 
     .container {
         max-width: 1440px;
@@ -212,19 +219,72 @@
             border-radius: 30px;
             background-color: #36b872;
 
+            @media only screen and (max-width: 1280px) {
+                width: 1000px;
+                height: 1200px;
+                margin: 0 auto;
+            }
+
+            @media only screen and (max-width: 1020px) {
+                width: 800px;
+                height: 1200px;
+                margin: 0 auto;
+            }
+
+            @media only screen and (max-width: 830px) {
+                width: 600px;
+                height: 1150px;
+                margin: 0 auto;
+            }
+
+            @media only screen and (max-width: 625px) {
+                width: 400px;
+                height: 1050px;
+                margin: 0 auto;
+            }
+
+            @media only screen and (max-width: 420px) {
+                width: 300px;
+                height: 1150px;
+                margin: 0 auto;
+            }
+            @media only screen and (max-width: 320px) {
+                width: 280px;
+                height: 1150px;
+                margin: 0 auto;
+            }
+
 
             .tuzilma {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 padding: 60px 0;
+
+                @media only screen and (max-width: 1280px) {
+                    padding: 40px 0;
+                }
+
                 // background-image: url(https://static.tildacdn.com/lib/flags/flags5.png);
+
 
                 h1 {
                     color: white;
                     font-family: 'Monsterrat ', sans-serif;
                     font-size: 60px;
                     font-weight: 800;
+
+                    @media only screen and (max-width: 830px) {
+                        font-size: 30px;
+                    }
+
+                    @media only screen and (max-width: 625px) {
+                        font-size: 26px;
+                    }
+
+                    @media only screen and (max-width: 420px) {
+                        font-size: 20px;
+                    }
                 }
             }
 
@@ -234,11 +294,23 @@
                 justify-content: space-around;
                 width: 100%;
                 height: 69%;
+
                 // border: $border;
+                @media only screen and (max-width: 1280px) {
+                    display: flex;
+                    flex-direction: column;
+                    height: 72%;
+                }
 
                 .rasmmas {
                     width: 42%;
                     height: 100%;
+
+                    @media only screen and (max-width: 1280px) {
+                        width: 100%;
+                        height: 50%;
+                    }
+
 
                     // border: $border;
                     .ortaga {
@@ -249,6 +321,18 @@
                             align-items: center;
                             gap: 20px;
                             margin-top: 15px;
+
+                            @media only screen and (max-width: 420px) {
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                            @media only screen and (max-width: 1280px) {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                            }
 
                             .plar1 {
                                 display: flex;
@@ -261,21 +345,73 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 color: black;
                                 font-weight: 400;
-                                font-size: 24px;
+                                font-size: 16 px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
                             }
 
                             .plar2 {
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                width: 350px;
+                                width: 390px;
                                 height: 60px;
                                 background-color: white;
                                 border-radius: 30px;
                                 font-family: 'Monsterrat', sans-serif;
                                 color: black;
                                 font-weight: 400;
-                                font-size: 22px;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    width: 250px;
+                                    height: 60px;
+                                    font-size: 12px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
                             }
 
                             .plar3 {
@@ -289,7 +425,33 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 color: black;
                                 font-weight: 400;
-                                font-size: 22px;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 250px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
                             }
 
                             .plar4 {
@@ -303,7 +465,33 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 color: black;
                                 font-weight: 400;
-                                font-size: 22px;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 250px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
                             }
 
                             .plar5 {
@@ -317,7 +505,33 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 color: black;
                                 font-weight: 400;
-                                font-size: 22px;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 160px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
                             }
 
                             .plar6 {
@@ -331,7 +545,33 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 color: black;
                                 font-weight: 400;
-                                font-size: 22px;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 160px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
                             }
 
                             .plar7 {
@@ -345,7 +585,273 @@
                                 font-family: 'Monsterrat', sans-serif;
                                 color: black;
                                 font-weight: 400;
-                                font-size: 22px;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 160px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+                            }
+
+                            .plar8 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 120px;
+                                height: 60px;
+                                background-color: white;
+                                border-radius: 30px;
+                                font-family: 'Monsterrat', sans-serif;
+                                color: black;
+                                font-weight: 400;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 160px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+                            }
+
+                            .plar9 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 120px;
+                                height: 60px;
+                                background-color: white;
+                                border-radius: 30px;
+                                font-family: 'Monsterrat', sans-serif;
+                                color: black;
+                                font-weight: 400;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 160px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+                            }
+
+                            .plar10 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 150px;
+                                height: 60px;
+                                background-color: white;
+                                border-radius: 30px;
+                                font-family: 'Monsterrat', sans-serif;
+                                color: black;
+                                font-weight: 400;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 160px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+                            }
+
+                            .plar11 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 130px;
+                                height: 60px;
+                                background-color: white;
+                                border-radius: 30px;
+                                font-family: 'Monsterrat', sans-serif;
+                                color: black;
+                                font-weight: 400;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 250px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+                            }
+
+                            .plar12 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 250px;
+                                height: 60px;
+                                background-color: white;
+                                border-radius: 30px;
+                                font-family: 'Monsterrat', sans-serif;
+                                color: black;
+                                font-weight: 400;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 250px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+                            }
+
+                            .plar13 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 150px;
+                                height: 60px;
+                                background-color: white;
+                                border-radius: 30px;
+                                font-family: 'Monsterrat', sans-serif;
+                                color: black;
+                                font-weight: 400;
+                                font-size: 16px;
+
+                                @media only screen and (max-width: 1330px) {
+                                    font-size: 14px;
+                                }
+
+                                @media only screen and (max-width: 1280px) {
+                                    font-size: 12px;
+                                    width: 250px;
+                                    height: 60px;
+                                }
+
+                                @media only screen and (max-width: 625px) {
+                                    font-size: 12px;
+                                    width: 420px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 12px;
+                                    width: 180px;
+                                    height: 40px;
+                                    text-align: center;
+
+                                }
                             }
                         }
                     }
@@ -358,6 +864,15 @@
                     width: 58%;
                     height: 100%;
 
+                    @media only screen and (max-width: 1280px) {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        height: 50%;
+
+                    }
+
                     // border: $border;
                     .uy {
                         width: 90%;
@@ -368,9 +883,26 @@
                         background-size: cover;
                         background-position: contain;
                         border-radius: 30px;
+
+                        @media only screen and (max-width: 1280px) {
+                            margin-top: 180px;
+                            width: 80%;
+                        }
+                        @media only screen and (max-width: 420px) {
+                            margin-top: 580px;
+                            width: 80%;
+                            height: 150px;
+                        }
                     }
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .Infra {
+        width: 100%;
+
     }
 }

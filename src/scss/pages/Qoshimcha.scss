@@ -1,0 +1,435 @@
+@import '../global.scss';
+
+.Qoshimcha {
+    width: 100%;
+    margin-top: 50px;
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+
+        .afzalliklar {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+        }
+
+        .bratishka {
+            font-size: 40px;
+            font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+            font-weight: 900;
+            margin-bottom: 10px;
+
+            @media only screen and (max-width: 800px) {
+                font-size: 30px;
+            }
+        }
+
+        .Psixolog {
+            width: 60%;
+            height: 60px;
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            border-width: 2px;
+            border-radius: 16px;
+            border-style: solid;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            background-color: #f3e5ff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            border-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position-x: 10px;
+            background-position-y: 5px;
+            background-image: url("https://optim.tildacdn.one/tild6162-6262-4532-b532-303833336535/-/cover/82x82/center/center/-/format/webp/d8537947-6c9b-4274-8.png");
+
+            p {
+                @media only screen and (max-width: 1400px) {
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width: 970px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 890px) {
+                    font-size: 14px;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 12px;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 8px;
+                }
+
+            }
+
+
+        }
+
+        :hover.Psixolog {
+            width: 62%;
+            height: 63px;
+            transition: 2s;
+        }
+
+        .tayyorlov {
+            width: 60%;
+            height: 60px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: row;
+            border-width: 2px;
+            border-color: transparent;
+            border-style: solid;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff7e5;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            background-image: url("https://optim.tildacdn.one/tild6238-3762-4834-a465-363634333032/-/cover/82x82/center/center/-/format/webp/c230e10d-1df5-4c67-b.png");
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position-x: 10px;
+
+            p {
+                @media only screen and (max-width: 1400px) {
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width: 970px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 890px) {
+                    font-size: 14px;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 12px;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 8px;
+                }
+            }
+        }
+
+        :hover.tayyorlov {
+            width: 62%;
+            height: 63px;
+            transition: 2s;
+        }
+
+        .odatlar {
+            width: 60%;
+            height: 60px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: row;
+            border-width: 2px;
+            border-color: yellow;
+            border-style: solid;
+            align-items: center;
+            justify-content: center;
+            background-color: #e5f3ff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            border-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position-x: 10px;
+            background-position-y: 5px;
+            background-image: url("https://optim.tildacdn.one/tild3864-3364-4031-b365-626366653362/-/cover/82x82/center/center/-/format/webp/3a6a647d-a033-443c-9.png");
+
+            p {
+                @media only screen and (max-width: 1400px) {
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width: 970px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 890px) {
+                    font-size: 14px;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 12px;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 8px;
+                }
+            }
+        }
+
+        :hover.odatlar {
+            width: 62%;
+            height: 63px;
+            transition: 2s;
+        }
+
+        .malakaliustozlar {
+            width: 60%;
+            height: 60px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: row;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff7e5;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            border-color: transparent;
+            background-image: url("https://optim.tildacdn.one/tild3036-6235-4433-b232-613436333938/-/cover/82x82/center/center/-/format/webp/755a2caa-b27b-48cb-9.png");
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position-x: 10px;
+
+            p {
+                @media only screen and (max-width: 1400px) {
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width: 970px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 890px) {
+                    font-size: 14px;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 12px;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 8px;
+                }
+            }
+        }
+
+        :hover.malakaliustozlar {
+            width: 62%;
+            height: 63px;
+            transition: 2s;
+        }
+
+
+        .tashna {
+            width: 60%;
+            height: 60px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: row;
+            border-width: 2px;
+            border-color: orange;
+            border-style: solid;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff7e5;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            border-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position-x: 10px;
+            background-image: url("https://optim.tildacdn.one/tild3461-3862-4535-b833-383739363439/-/cover/82x82/center/center/-/format/webp/ba5c6a2c-7545-4909-b.png");
+
+            p {
+                @media only screen and (max-width: 1400px) {
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width: 970px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 890px) {
+                    font-size: 14px;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 12px;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 8px;
+                }
+            }
+        }
+
+        :hover.tashna {
+            width: 62%;
+            height: 63px;
+            transition: 2s;
+        }
+
+        .Har50 {
+            width: 60%;
+            height: 60px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            border-width: 2px;
+            border-color: green;
+            border-style: solid;
+            align-items: center;
+            justify-content: center;
+            background-color: #e5fff1;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            border-color: transparent;
+            background-image: url("https://optim.tildacdn.one/tild3061-6264-4139-b534-386431316532/-/cover/82x82/center/center/-/format/webp/7664e528-48aa-4753-b.png");
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position-x: 10px;
+
+            p {
+                @media only screen and (max-width: 1400px) {
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width: 970px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 890px) {
+                    font-size: 14px;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 12px;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 8px;
+                }
+            }
+        }
+
+        :hover.Har50 {
+            width: 62%;
+            height: 63px;
+            transition: 2s;
+        }
+
+        .ITlab {
+            width: 60%;
+            height: 60px;
+            margin-top: 5px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: row;
+            border-width: 2px;
+            border-color: maroon;
+            border-style: solid;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            background-color: #e5f3ff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            border-color: transparent;
+            background-image: url("https://optim.tildacdn.one/tild6637-3464-4338-b134-366135393637/-/cover/82x82/center/center/-/format/webp/b3eb425e-5e5f-42df-9.png");
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position-y: 5px;
+            background-position-x: 10px;
+
+            p {
+                @media only screen and (max-width: 1400px) {
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width: 970px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 890px) {
+                    font-size: 14px;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 12px;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 8px;
+                }
+            }
+        }
+
+
+        :hover.ITlab {
+            width: 62%;
+            height: 63px;
+            transition: 2s;
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .Qoshimcha {
+        width: 100%;
+    }
+}
