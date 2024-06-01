@@ -34,7 +34,7 @@ const About = () => {
             </div>
             <div className='xl:rightside flex flex-col items-center'>
               <div className='lg:hidden  flex justify-center text-[30px] font-bold my-4'><h3>Maktab haqida</h3></div>
-              <Image className='w-full h-full rounded-3xl px-4' src={car} alt="" />
+              <Image className='w-full h-full rounded-3xl' src={car} alt="" />
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ const About = () => {
       </div>
       <div className="mt-10 mx-auto  max-w-[1440px] ">
         <div className="flex items-center gap-5">
-          <div className="grid xs:grid-cols-2 gap-5">
+          <div className="grid xs:grid-cols-2 xl:grid-cols-1 gap-5">
 
             <div className="my-10  max-w-[1800px] mx-10 ">
               <h2 className="flex w-full justify-center lg:text-[50px] text-[30px] py-4 font-semibold">Nima uchun bizning maktab?</h2>
