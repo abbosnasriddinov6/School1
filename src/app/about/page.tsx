@@ -4,6 +4,7 @@ import React from 'react'
 
 import '../../scss/pages/About.scss'
 import Darsdantash from '@/components/Darsdantash'
+import MaxsusTalim from '@/components/MaxsusTalim'
 const About = () => {
   return (
     <>
@@ -80,7 +81,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10  max-w-[1440px] ">
+      <div className="mt-10 mx-auto  max-w-[1440px] ">
         <div className="flex items-center gap-5">
           <div className="grid xs:grid-cols-2 gap-5">
 
@@ -124,9 +125,16 @@ const About = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
       <Darsdantash />
     </>
   )
+=======
+          <Darsdantash />
+          <MaxsusTalim/>
+        </>
+        )
+>>>>>>> e9761c171d6e53268cbcc7c1dabdc28e91958bb8
 }
 
 export default About

@@ -11,6 +11,7 @@ import opacha from './images/opacha.jpg';
 import plus from './images/plus.png';
 import minus from './images/minus.png';
 import about from './images/about.png';
+import bar from './images/menu.svg';
 
 
-export { logo, car, clock, food, money, teacher, acceptance, blog, boboy, opacha, plus, minus, about };
+export { logo, car, clock, food, money, teacher, acceptance, blog, boboy, opacha, plus, minus, about, bar };

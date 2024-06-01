@@ -10,7 +10,7 @@ const MaxsusTalim = () => {
     return(
 
         <div>
- <div className="container">
+ <div className="container mx-auto">
             <div className="my-10">
                 <div>
                     <h2 className="flex justify-center md:text-[50px] text-[30px] font-semibold my-10">Maxsus
