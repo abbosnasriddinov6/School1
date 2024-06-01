@@ -8,34 +8,38 @@ import MaxsusTalim from '@/components/MaxsusTalim'
 const About = () => {
   return (
     <>
-      <div className='Section3'>
+      <div className='Section3 px-3'>
         <div className='container'>
-          <div className="section3">
+          <div className=" lg:flex-row flex flex-col-reverse gap-3">
             <div className='leftside'>
-              <h1>Maktab haqida</h1>
-              <p>Maktabimiz zamonaviy o'qitish texnikasi, amaliy o'rganish tajribasi va tarbiyaviy muhitni o'z ichiga olgan holda ta'limga innovatsion yondashuvni ta'minlashga qaratilgan. Rahimov School o‘quvchilarga o‘z imkoniyatlarini to‘liq ochib berish va har tomonlama barkamol shaxs bo‘lib yetishishlariga yordam beradi.</p>
-              <h2>Chuqurlashtirilgan fanlar:</h2>
-              <div className='h3lar'>
+
+              <h1 className='font-bold hidden lg:block text-[50px] font-bold pt-4 my-8'>Maktab haqida</h1>
+              <p className='lg:max-w-[800px] px-3 lg:px-0'>Maktabimiz zamonaviy o'qitish texnikasi, amaliy o'rganish tajribasi va tarbiyaviy muhitni o'z ichiga olgan holda ta'limga innovatsion yondashuvni ta'minlashga qaratilgan. Rahimov School o‘quvchilarga o‘z imkoniyatlarini to‘liq ochib berish va har tomonlama barkamol shaxs bo‘lib yetishishlariga yordam beradi.</p>
+              <h2 className='text-green-600 font-bold text-2xl py-4'>Chuqurlashtirilgan fanlar:</h2>
+              <div className='flex gap-4'>
                 <div className='english'>
-                  <h3>Ingliz tili</h3>
+                  <h3 className='bg-blue-200  px-5 py-2 rounded-lg text-xl font-semibold'>Ingliz tili</h3>
                 </div>
                 <div className='math'>
-                  <h3>Matematika</h3>
+                  <h3 className='bg-pink-200  px-5 py-2 rounded-lg text-xl font-semibold'>Matematika</h3>
                 </div>
               </div>
-              <h2>Taʼlim tili:</h2>
+              <h2 className='my-3 text-2xl text-green-600 font-bold'>Taʼlim tili:</h2>
               <div className='h3ozi'>
-                <h3>Boshlangʻich sinfda: o'zbek va rus tillarida</h3>
+                <h3 className='bg-blue-200 px-4 py-4 text-lg my-3 rounded-lg max-w-[430px] font-semibold text-center'>Boshlangʻich sinfda: o'zbek va rus tillarida</h3>
               </div>
               <div className='div'>
-                <h4>*5-sinfdan faqat oʻzbek tilida</h4>
+                <h4 className='px-4'>*5-sinfdan faqat oʻzbek tilida</h4>
               </div>
             </div>
-            <div className='rightside'>
-              <Image src={car} alt="" />
+            <div className='xl:rightside flex flex-col items-center'>
+              <div className='lg:hidden  flex justify-center text-[30px] font-bold my-4'><h3>Maktab haqida</h3></div>
+              <Image className='w-full h-full rounded-3xl px-4' src={car} alt="" />
             </div>
           </div>
         </div>
+
+
 
       </div>
       <div className="Infra">

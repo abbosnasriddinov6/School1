@@ -7,7 +7,7 @@ const Darsdantash = () => {
         <>
             <div className="lg:my-10 container mx-auto max-w-[1440px] mx-auto   ">
                 <div>
-                    <h2 className="flex justify-center md:text-[50px] text-[30px] font-semibold mb-4 lg:my-10">Darsdan tashqari mashg'ulotlar</h2>
+                    <h2 className="flex justify-center text-center md:text-[50px] text-[30px] font-semibold mb-4 lg:my-10">Darsdan tashqari mashg'ulotlar</h2>
 
 
                     <div className="grid lg:grid-cols-3 sm:grid-cols-2 w-full mx-auto gap-5">
