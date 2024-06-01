@@ -11,7 +11,7 @@ const Darsdantash = () => {
 
 
                     <div className="grid lg:grid-cols-3 sm:grid-cols-2 w-full mx-auto gap-5">
-                        <div className="px-5 bg-[#e5f3ff] rounded-3xl relative group">
+                        <div className="px-5 bg-[#e5f3ff] rounded-3xl relative group flex flex-col justify-between">
                             <div className="">
                                 <i className="fa-solid fa-futbol absolute top-[-10px] left-[-10px] py-4 px-3 md:text-4xl text-xl bg-white text-cyan-400   rounded-full group-hover:rotate-90 duration-500"></i>
                                 <h3 className=" pt-16 font-bold ">Sport mashg'ulotlari</h3>
@@ -38,25 +38,23 @@ const Darsdantash = () => {
                             </div>
                             <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-16 py-4 " src={boboy}  alt="" />
                         </div>
-                        <div className="px-5 bg-[#fff7e5] rounded-3xl relative group">
+                        <div className="px-5 bg-[#fff7e5] rounded-3xl relative group flex flex-col justify-between">
                             <div className="">
                                 <i className="fa-solid fa-futbol absolute top-[-10px] left-[-10px] py-4 px-3 md:text-4xl text-xl bg-white text-pink-400   rounded-full group-hover:rotate-90 duration-500"></i>
                                 <h3 className=" pt-16 font-bold ">Madaniy sayohatlar</h3>
                                 <ul className="max-w-[300px] py-3">
-                                <div className='flex items-center gap-[2px]'>
-                                    <div className="w-1 h-1 bg-black rounded-full"></div>
-                                   </div>
-                                     <div className='flex items-center gap-[2px]'>
-                                    <div className="w-1 h-1 bg-black rounded-full"></div>
-                                   </div>
+                                <div className='flex items-start gap-[12px]'>
+                                    <div className="w-[6px] h-1 bg-black rounded-full"></div>
+                                    <li>Muzey, tog’ va ma’rifiy ko’ngil-ochar maskanlarga ekskursiyalar</li>
 
-                                   <div className='flex items-center gap-[2px]'>
-                                    <div className="w-1 h-1 bg-black rounded-full"></div>
                                    </div>
-                                    <li>Muzey, tog’ va ma’rifiy ko’ngil-ochar maskanlarga ekskursiyalar</li>
-                                   
-                                    <li>Muzey, tog’ va ma’rifiy ko’ngil-ochar maskanlarga ekskursiyalar</li>
+                               
+
+                                   <div className='flex items-center gap-[12px]'>
+                                    <div className="w-1 h-1 bg-black rounded-full"></div>
                                     <li>Zavod, o’quv markazlari kabi joylarga sayohatlar</li>
+                                   </div>
+                                   
                                 </ul>
                             </div>
 
@@ -70,7 +68,7 @@ const Darsdantash = () => {
 
                             <Image className="rounded-3xl lg:mt-10 bg-contain sm:mt-32 mt-16 py-4 " src={boboy} alt="" />
                         </div>
-                        <div className="px-5 bg-[#f3e5ff] rounded-3xl relative group">
+                        <div className="px-5 bg-[#f3e5ff] rounded-3xl relative group flex flex-col justify-between">
                             <div className="">
                                 <i className="fa-solid fa-futbol absolute top-[-10px] left-[-10px] py-4 px-3 md:text-4xl text-xl bg-white text-cyan-400   rounded-full group-hover:rotate-90 duration-500"></i>
                                 <h3 className=" pt-16 font-bold">Tadbir</h3>

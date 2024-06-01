@@ -4,7 +4,7 @@ import React from 'react'
 
 import '../../scss/pages/About.scss'
 import Darsdantash from '@/components/Darsdantash'
-import MaxsusTalim from '@/components/MaxsusTalim'
+import MaxsusTalim from '@/components/MaxsusTalim'  
 const About = () => {
   return (
     <>
@@ -48,29 +48,29 @@ const About = () => {
               <div className="rasmmas">
                 <div className='ortaga'>
                   <div className="xona">
-                    <p className='plar1'>18 ta dars xona</p>
-                    <p className='plar2'>1ta kompyuter laboratoriyasi</p>
+                    <p className='bg-white py-3 rounded-full text-xl w-[280px] px-4 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>18 ta dars xona</p>
+                    <p className='plar2 px-5 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>1ta kompyuter laboratoriyasi</p>
                   </div>
                   <div className="xona">
-                    <p className='plar3'>2 ta meditatsiya xonasi</p>
-                    <p className='plar4'>Faollar zali</p>
+                    <p className='plar3 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>2 ta meditatsiya xonasi</p>
+                    <p className='plar4 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Faollar zali</p>
                   </div>
                   <div className="xona">
-                    <p className='plar5'>Laboratoriya</p>
-                    <p className='plar6'>Kutubxona</p>
-                    <p className='plar7'>Studiya</p>
+                    <p className='plar5 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Laboratoriya</p>
+                    <p className='plar6 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Kutubxona</p>
+                    <p className='plar7 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Studiya</p>
                   </div>
                   <div className="xona">
-                    <p className='plar8'>Batut</p>
-                    <p className='plar9'>Sport zali</p>
-                    <p className='plar10'>Futbol maydoni</p>
+                    <p className='plar8 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Batut</p>
+                    <p className='plar9 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Sport zali</p>
+                    <p className='plar10 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Futbol maydoni</p>
                   </div>
                   <div className="xona">
-                    <p className='plar11'>Skaladrom</p>
-                    <p className='plar12'>Transport xizmati GoBusUz bilan</p>
+                    <p className='plar11 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Skaladrom</p>
+                    <p className='plar12 cursor-pointer bg-white px-4 py-2 rounded-full hover:bg-slate-800 duration-300 hover:text-slate-100'>Transport xizmati GoBusUz bilan</p>
                   </div>
                   <div className="xona">
-                    <p>24/7 xavfsizlik</p>
+                    <p className='bg-white px-4 py-2 rounded-full cursor-pointer hover:bg-slate-800 duration-300 hover:text-slate-100'>24/7 xavfsizlik</p>
                   </div>
                 </div>
               </div>
@@ -125,16 +125,13 @@ const About = () => {
         </div>
       </div>
 
-<<<<<<< HEAD
-      <Darsdantash />
-    </>
-  )
-=======
+
+    
+
           <Darsdantash />
           <MaxsusTalim/>
         </>
         )
->>>>>>> e9761c171d6e53268cbcc7c1dabdc28e91958bb8
 }
 
 export default About
