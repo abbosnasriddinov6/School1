@@ -7,11 +7,20 @@ import Link from 'next/link'
 import {RxHamburgerMenu} from "react-icons/rx";
 import {MdMenu} from "react-icons/md";
 import ResponsMenu from "@/components/ResponsMenu";
+import {  useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
 
     const [showMenu, setShowMenu] = useState(false)
 
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: false,
+        })
+    }, [])
     const SeeMenu = () => {
         setShowMenu(true)
         console.log('true buldi')
@@ -30,7 +39,7 @@ const Header = () => {
                             </div>
                             <nav
                                 className="ul md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                                <Link href='/about'><p>Maktab haqida</p></Link>
+                                <Link   href='/about'><p>Maktab haqida</p></Link>
                                 <Link href='/price'><p>Stipendiyalar</p></Link>
                                 <Link href='/qabuljarayon'><p>Qabul jarayoni</p></Link>
                                 <p>Bog'lanish</p>
