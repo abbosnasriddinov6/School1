@@ -29,7 +29,6 @@ const Header = () => {
 
     return (
         <>
-<<<<<<< HEAD
             {/* <div className='head'>
                 <div className='container'>
                     <div className='Header'>
@@ -48,10 +47,8 @@ const Header = () => {
                 </div>
             </div> */}
             <header className="head text-gray-600 body-font  ">
-=======
 
             <header className="head text-gray-600 body-font relative w-full ">
->>>>>>> d20101bd3666a754b0ca6d176572e5f1ef51db28
                 <div className=" container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <div className="Header">
                         <div className="qale">
@@ -79,6 +76,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
+            </header>
             </header>
 
         </>
