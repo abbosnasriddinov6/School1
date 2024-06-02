@@ -4,6 +4,7 @@ import { bar, logo } from '@/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 import { RxHamburgerMenu } from "react-icons/rx";
+import { MdMenu } from "react-icons/md";
 const Header = () => {
     return (
         <>
@@ -41,6 +42,8 @@ const Header = () => {
                             <button className='button1'>+998 93 596 05 06</button>
                             <button className='button2'>Ru</button>
                                 <Image className='burger' src={bar} alt="" />
+
+                                <MdMenu className='text-black text-2xl block lg:hidden'/>
                         </div>
                     </div>
                 </div>
