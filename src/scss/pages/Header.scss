@@ -92,3 +92,32 @@
 
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .head {
+        width: 100%;
+
+        .qale {
+            .button1 {
+                display: none;
+            }
+
+            .button2 {
+                display: none;
+            }
+
+            .burger {
+                display: block;
+
+            }
+
+            .ul {
+                p {
+                    display: none;
+                }
+            }
+        }
+
+
+    }
+}
