@@ -29,8 +29,29 @@ const Header = () => {
 
     return (
         <>
+<<<<<<< HEAD
+            {/* <div className='head'>
+                <div className='container'>
+                    <div className='Header'>
+                        <div className='qale'>
+                            <div className='Logo'>
+                                <Link href='/' ><Image src={logo} alt="" /></Link>
+                            </div>
+                            <ul>
+                               
+                            </ul>
+                            <div className='buttons'>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+            <header className="head text-gray-600 body-font  ">
+=======
 
             <header className="head text-gray-600 body-font relative w-full ">
+>>>>>>> d20101bd3666a754b0ca6d176572e5f1ef51db28
                 <div className=" container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <div className="Header">
                         <div className="qale">
@@ -42,10 +63,10 @@ const Header = () => {
                                 <Link   href='/about'><p>Maktab haqida</p></Link>
                                 <Link href='/price'><p>Stipendiyalar</p></Link>
                                 <Link href='/qabuljarayon'><p>Qabul jarayoni</p></Link>
-                                <p>Bog'lanish</p>
-                                <p>Portal</p>
+                                <a href="tel:+998935960506"><p>Bog'lanish</p></a>
+                                <Link href='/registernow'><p>Portal</p></Link>
                             </nav>
-                            <button className='button1'>+998 93 596 05 06</button>
+                            <button className='button1'><a href="tel:+998935960506">+998 93 596 05 06</a></button>
                             <button className='button2'>Ru</button>
 
                             {showMenu && <div

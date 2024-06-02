@@ -11,12 +11,12 @@ const Questions = () => {
     const [openit, setOpenIt] = useState(true)
     const [openits, setOpenIts] = useState(true)
     const [openitss, setOpenItss] = useState(true)
-    const [openitsd, setOpenItsd] = useState(true)
-    const [openitsa, setOpenItsa] = useState(true)
-    const [openitsdb, setOpenItsdb] = useState(true)
-    const [openitsde, setOpenItsde] = useState(true)
-    const [openitsdf, setOpenItsdf] = useState(true)
-    const [openitsdg, setOpenItsdg] = useState(true)
+    // const [openitsd, setOpenItsd] = useState(true)
+    // const [openitsa, setOpenItsa] = useState(true)
+    // const [openitsdb, setOpenItsdb] = useState(true)
+    // const [openitsde, setOpenItsde] = useState(true)
+    // const [openitsdf, setOpenItsdf] = useState(true)
+    // const [openitsdg, setOpenItsdg] = useState(true)
     
     return (
         <>
@@ -103,12 +103,6 @@ const Questions = () => {
                                         </div>
                                     </div>
                                 }
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>
