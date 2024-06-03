@@ -9,7 +9,7 @@ const Food = () => {
       <div className="Section13">
         <div className="container">
           <div className="section13">
-            <div className="maktab flex flex-wrap">
+            <div className="maktab ">
               <div data-aos="fade-right" className='vaqtga'>
                 <div className='soat'>
                   <h1>Maktab vaqtlari</h1>
@@ -19,7 +19,7 @@ const Food = () => {
                   <div className='sinflarb1'>
                     <h2>1-11 sinflar</h2>
                   </div>
-                  <div className='sinflarb2 max-w-full'>
+                  <div className='sinflarb2 '>
                     <p>soat 08:00’dan 17:15’gacha <span>tashkillashtiriladi</span></p>
                   </div>
                   <div className='sinflarb3'>

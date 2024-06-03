@@ -4,26 +4,48 @@
     margin-top: 110px;
     width: 100%;
 
+    @media only screen and (max-width: 1450px) {
+        width: 100%;
+    }
+
     .container {
         max-width: 1440px;
         margin: 0 auto;
 
         .section13 {
             width: 100%;
+
             height: 1100px;
+
             // border: $border;
+            @media only screen and (max-width: 780px) {
+                height: 1500px;
+            }
 
             .maktab {
                 display: flex;
                 width: 100%;
                 height: 50%;
+
                 // border: $border;
+                @media only screen and (max-width: 780px) {
+                    flex-direction: column;
+                }
 
                 .vaqtga {
 
                     width: 65%;
                     height: 100%;
+
                     // border: $border;
+                    @media only screen and (max-width: 1450px) {
+                        width: 60%;
+                    }
+
+                    @media only screen and (max-width: 780px) {
+                        width: 100%;
+                        margin: 0 auto;
+                    }
 
                     .gooo {
                         display: flex;
@@ -33,7 +55,11 @@
                         gap: 15px;
                         width: 100%;
                         height: 68%;
+
                         // border: $border;
+                        @media only screen and (max-width: 1450px) {
+                            height: 60%;
+                        }
 
                         .sinflarb1 {
                             display: flex;
@@ -44,10 +70,45 @@
                             background-color: #f4e5ff;
                             border-radius: 30px;
 
+                            @media only screen and (max-width: 1450px) {
+                                width: 600px;
+                            }
+
+                            @media only screen and (max-width: 1050px) {
+                                width: 500px;
+                            }
+
+                            @media only screen and (max-width: 890px) {
+                                width: 400px;
+                            }
+
+                            @media only screen and (max-width: 515px) {
+                                width: 350px;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                width: 300px;
+                                margin-top: -50px;
+                            }
+
                             h2 {
                                 color: #7b48a3;
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 32px;
+
+                                @media only screen and (max-width: 735px) {
+                                    font-size: 30px;
+                                }
+
+                                @media only screen and (max-width: 515px) {
+                                    font-size: 24px;
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 20px;
+                                }
+
+
                             }
                         }
 
@@ -55,10 +116,30 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            width: 1000px;
+                            width: 920px;
                             height: 110px;
                             background-color: #f4e5ff;
                             border-radius: 25px;
+
+                            @media only screen and (max-width: 1450px) {
+                                width: 650px;
+                            }
+
+                            @media only screen and (max-width: 1050px) {
+                                width: 550px;
+                            }
+
+                            @media only screen and (max-width: 890px) {
+                                width: 450px;
+                            }
+
+                            @media only screen and (max-width: 515px) {
+                                width: 350px;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                width: 320px;
+                            }
 
                             p {
                                 display: flex;
@@ -67,6 +148,21 @@
                                 color: black;
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 24px;
+
+                                @media only screen and (max-width: 735px) {
+                                    font-size: 18px;
+                                }
+
+                                @media only screen and (max-width: 515px) {
+                                    font-size: 16px;
+                                    text-align: center;
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 16px;
+                                    text-align: center;
+                                }
+
                             }
                         }
 
@@ -79,10 +175,44 @@
                             background-color: #f4e5ff;
                             border-radius: 30px;
 
+                            @media only screen and (max-width: 1450px) {
+                                width: 450px;
+                            }
+
+                            @media only screen and (max-width: 1050px) {
+                                width: 400px;
+                            }
+
+                            @media only screen and (max-width: 515px) {
+                                width: 350px;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                width: 320px;
+                            }
+
                             p {
                                 color: black;
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 22px;
+
+                                @media only screen and (max-width: 890px) {
+                                    font-size: 20px;
+                                }
+
+                                @media only screen and (max-width: 735px) {
+                                    font-size: 18px;
+                                }
+
+                                @media only screen and (max-width: 515px) {
+                                    font-size: 16px;
+                                    text-align: center;
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 16px;
+                                    text-align: center;
+                                }
                             }
                         }
                     }
@@ -97,12 +227,57 @@
                         img {
                             width: 100px;
                             height: 100px;
+
+                            @media only screen and (max-width: 1450px) {
+                                width: 80px;
+                                height: 80px;
+                            }
+
+                            @media only screen and (max-width: 735px) {
+                                width: 70px;
+                                height: 70px;
+                            }
+
+                            @media only screen and (max-width: 720px) {
+                                width: 50px;
+                                height: 50px;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                width: 40px;
+                                height: 40px;
+                            }
                         }
 
                         h1 {
                             font-family: 'Monsterrat', sans-serif;
                             font-size: 66px;
                             color: #7b48a3;
+
+                            @media only screen and (max-width: 1450px) {
+                                font-size: 46px;
+                                margin-left: 50px;
+                            }
+
+                            @media only screen and (max-width: 735px) {
+                                font-size: 36px;
+                                text-align: center;
+                            }
+
+                            @media only screen and (max-width: 720px) {
+                                font-size: 30px;
+                                text-align: center;
+                            }
+
+                            @media only screen and (max-width: 515px) {
+                                font-size: 25px;
+                                text-align: center;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                font-size: 18px;
+                                text-align: center;
+                            }
                         }
                     }
                 }
@@ -116,6 +291,28 @@
                     background-image: url(https://optim.tildacdn.one/tild3030-3138-4639-a237-616361643064/-/cover/764x560/center/center/-/format/webp/58b50acc-4668-4c67-9.png);
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    @media only screen and (max-width: 1450px) {
+                        width: 30%;
+                        height: 80%;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                    }
+
+                    @media only screen and (max-width: 780px) {
+                        width: 70%;
+                        height: 500px;
+                    }
+
+                    @media only screen and (max-width: 515px) {
+                        height: 350px;
+                        margin-top: -100px;
+                    }
+
+                    @media only screen and (max-width: 420px) {
+                        height: 350px;
+                        margin-top: -150px;
+                    }
                 }
 
                 .vaqtga {
@@ -143,10 +340,51 @@
                             background-color: #e5f3ff;
                             border-radius: 30px;
 
+                            @media only screen and (max-width: 1450px) {
+                                width: 600px;
+                            }
+
+                            @media only screen and (max-width: 1050px) {
+                                width: 500px;
+                            }
+
+                            @media only screen and (max-width: 890px) {
+                                width: 400px;
+                            }
+
+                            @media only screen and (max-width: 515px) {
+                                width: 350px;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                width: 300px;
+                                margin-top: -50px;
+                            }
+
                             h2 {
                                 color: #115999;
                                 font-family: 'Monsterrat', sans-serif;
                                 font-size: 32px;
+
+                                @media only screen and (max-width: 1200px) {
+                                    font-size: 30px;
+                                }
+
+                                @media only screen and (max-width: 1060px) {
+                                    font-size: 28px;
+                                }
+
+                                @media only screen and (max-width: 735px) {
+                                    font-size: 26px;
+                                }
+
+                                @media only screen and (max-width: 515px) {
+                                    font-size: 24px;
+                                }
+
+                                @media only screen and (max-width: 420px) {
+                                    font-size: 20px;
+                                }
                             }
                         }
 
@@ -156,6 +394,46 @@
                             align-items: center;
                             justify-content: center;
                             gap: 30px;
+
+                            @media only screen and (max-width: 780px) {
+                                width: 700px;
+
+                            }
+
+                            @media only screen and (max-width: 720px) {
+                                width: 650px;
+
+                            }
+
+                            @media only screen and (max-width: 670px) {
+                                width: 620px;
+
+                            }
+
+                            @media only screen and (max-width: 640px) {
+                                width: 580px;
+
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                                width: 550px;
+
+                            }
+
+                            @media only screen and (max-width: 570px) {
+                                width: 500px;
+
+                            }
+
+                            @media only screen and (max-width: 520px) {
+                                width: 450px;
+
+                            }
+
+                            @media only screen and (max-width: 470px) {
+                               width: 350px;
+
+                            }
 
                             .sinflarb31 {
                                 width: 550px;
@@ -168,12 +446,66 @@
                                 flex-direction: column;
                                 gap: 20px;
 
+                                @media only screen and (max-width: 1450px) {
+                                    width: 500px;
+                                }
+
+                                @media only screen and (max-width: 1350px) {
+                                    width: 400px;
+                                }
+
+                                @media only screen and (max-width: 780px) {
+                                    width: 500px;
+
+                                }
+
+                                @media only screen and (max-width: 570px) {
+                                    width: 400px;
+
+                                }
+                                @media only screen and (max-width: 570px) {
+                                    width: 400px;
+                                    height: 120px;
+
+                                }
+
                                 p {
                                     display: flex;
                                     align-items: center;
                                     flex-direction: column;
                                     font-family: 'Monsterrat', sans-serif;
                                     font-size: 22px;
+
+                                    @media only screen and (max-width: 1450px) {
+                                        font-size: 18px;
+                                    }
+
+                                    @media only screen and (max-width: 1350px) {
+                                        font-size: 16px;
+                                        text-align: center;
+                                    }
+
+                                    @media only screen and (max-width: 1200px) {
+                                        font-size: 14px;
+                                    }
+
+                                    @media only screen and (max-width: 1060px) {
+                                        font-size: 12px;
+                                    }
+
+                                    @media only screen and (max-width: 600px) {
+                                        font-size: 10px;
+
+                                    }
+
+                                    @media only screen and (max-width: 520px) {
+                                        font-size: 8px;
+
+                                    }
+                                    @media only screen and (max-width: 470px) {
+                                        font-size: 6px;
+
+                                    }
                                 }
                             }
                         }
@@ -193,12 +525,68 @@
                         img {
                             width: 100px;
                             height: 100px;
+
+                            @media only screen and (max-width: 1450px) {
+                                width: 80px;
+                                height: 80px;
+                            }
+
+                            @media only screen and (max-width: 1210px) {
+                                width: 75px;
+                                height: 75px;
+                            }
+
+                            @media only screen and (max-width: 735px) {
+                                width: 70px;
+                                height: 70px;
+                            }
+
+                            @media only screen and (max-width: 720px) {
+                                width: 50px;
+                                height: 50px;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                width: 40px;
+                                height: 40px;
+                            }
                         }
 
                         h1 {
                             font-family: 'Monsterrat', sans-serif;
                             font-size: 66px;
                             color: #115999;
+
+                            @media only screen and (max-width: 1450px) {
+                                font-size: 46px;
+                                margin-right: 50px;
+                                text-align: center;
+                            }
+
+                            @media only screen and (max-width: 1210px) {
+                                font-size: 36px;
+                                margin-right: 50px;
+                            }
+
+                            @media only screen and (max-width: 735px) {
+                                font-size: 36px;
+                                text-align: center;
+                            }
+
+                            @media only screen and (max-width: 720px) {
+                                font-size: 30px;
+                                text-align: center;
+                            }
+
+                            @media only screen and (max-width: 515px) {
+                                font-size: 25px;
+                                text-align: center;
+                            }
+
+                            @media only screen and (max-width: 420px) {
+                                font-size: 18px;
+                                text-align: center;
+                            }
                         }
                     }
                 }
@@ -212,16 +600,37 @@
                     background-image: url(https://optim.tildacdn.one/tild3835-3364-4435-b533-633761656164/-/cover/764x560/center/center/-/format/webp/c7f3bdd8-d091-410b-9.png);
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    @media only screen and (max-width: 1450px) {
+                        width: 30%;
+                        height: 80%;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                    }
+
+                    @media only screen and (max-width: 780px) {
+                        width: 70%;
+                        height: 500px;
+                    }
+
+                    @media only screen and (max-width: 515px) {
+                        height: 350px;
+                    }
+
+                    @media only screen and (max-width: 420px) {
+                        height: 350px;
+                    }
                 }
             }
-            
+
         }
     }
 }
 
 
-@media screen and (max-width: 800px){
-    .maktab{
-        display: block;
+@media screen and (max-width: 1450px) {
+    .Section13 {
+        width: 100%;
+        margin-top: 0;
     }
 }
