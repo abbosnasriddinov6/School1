@@ -20,7 +20,7 @@ const Questions = () => {
     
     return (
         <>
-            <div className='Questions'>
+            <div data-aos="zoom-out" className='Questions'>
                 <div className="container">
                     <div className="questions">
                         <div className="kop">

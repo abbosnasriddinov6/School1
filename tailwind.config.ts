@@ -5,6 +5,8 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/js/**/*.js"
   ],
   theme: {
     screens: {
@@ -36,6 +38,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins:[require("tw-elements/plugin.cjs")],
+  darkMode: "class",
 };
 export default config;

@@ -11,7 +11,7 @@ const About = () => {
     <>
       <div className='Section3 px-3'>
         <div className='container'>
-          <div className=" lg:flex-row flex flex-col-reverse gap-3">
+          <div data-aos="zoom-in" className=" lg:flex-row flex flex-col-reverse gap-3">
             <div className='leftside'>
 
               <h1 className='font-bold hidden lg:block text-[50px] font-bold pt-4 my-8'>Maktab haqida</h1>
@@ -89,7 +89,7 @@ const About = () => {
       </div>
       <div className="mt-10 mx-auto  max-w-[1440px] ">
         <div className="flex items-center gap-5">
-          <div className="grid xs:grid-cols-2 xl:grid-cols-1 gap-5">
+          <div data-aos="fade-right" className="grid xs:grid-cols-2 xl:grid-cols-1 gap-5">
 
             <div className="my-10  max-w-[1800px] mx-10 ">
               <h2 className="flex w-full justify-center lg:text-[50px] text-[30px] py-4 font-semibold">Nima uchun bizning maktab?</h2>
@@ -122,8 +122,8 @@ const About = () => {
                     </p>
                   </div>
                 </div>
-                <div>
-                  <Image className="xl:h-[482px] hidden xl:block xl:w-[700px]" src={opacha} alt="" />
+                <div className="xl:h-[482px] hidden xl:block xl:w-[700px]"  >
+                  <Image src={opacha} alt="" />
                 </div>
               </div>
             </div>
