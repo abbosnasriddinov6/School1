@@ -1,31 +1,52 @@
 import Link from "next/link";
-import React, {useState} from "react";
-import { IoIosExit } from "react-icons/io";
+import React, {useEffect, useState} from "react";
+import {IoIosExit} from "react-icons/io";
 import '../scss/pages/responMenu.scss'
+import {GiExitDoor} from "react-icons/gi";
 
-export default function ResponsMenu() {
-
-
-const [closeModal, setCloseModal]  = useState(false)
-
-const AddHidden =  () => {
-    body.classList.add('hidden')
+interface props {
+    isOpen: boolean
+    setShowMenu: (args: boolean) => void
 }
 
-     return (
+export default function ResponsMenu({isOpen, setShowMenu}: props) {
 
-         <div data-aos="fade-right" className="w-full z-50 absolute top-0 right-0 h-full flex  justify-center  header">
-             <div className="relative bg-black w-full   flex-col   py-20  ">
-                 {/*<i */}
-                 {/*   className="fa-solid fa-xmark absolute text-white top-4 right-4 text-xl cursor-pointer hover:text-red-500 "></i>*/}
-                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">Use
-                     Cases</h2>
-                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">About</h2>
-                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">Prising</h2>
-                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">Blog</h2>
-             </div>
-         </div>
+    return (
+        <>
+            {isOpen && <div data-aos="fade-right"
+                            className=" z-50 absolute w-full top-[-10px] h-full   ">
+                <div className="relative bg-black flex flex-col items-center justify-center w-screen    py-10 px-10 ">
+                    <GiExitDoor onClick={() => setShowMenu(false)}
+                                className="absolute z-40 text-red-500 top-4 right-4"/>
+                    <Link href='/about'><p
+                        className=" cursor-pointer text-white hover:bg-slate-300 px-5 hover:text-black text-start   duration-300 rounded my-1">Maktab
+                        haqida</p></Link>
+                    <Link href='/price'><p
+                        className=" cursor-pointer text-white hover:bg-slate-300 px-5 hover:text-black text-start   duration-300 rounded my-1">Stipendiyalar</p>
+                    </Link>
+                    <Link href='/qabuljarayon'><p
+                        className=" cursor-pointer text-white hover:bg-slate-300 px-5 hover:text-black text-start    duration-300 rounded my-1">Qabul
+                        jarayoni</p></Link>
+                    <a href="tel:+998935960506"><p
+                        className=" cursor-pointer text-white hover:bg-slate-300 px-5 hover:text-black text-start   duration-300 rounded my-1">Bog`lanish</p>
+                    </a>
+                    <Link href='/registernow'><p
+                        className=" cursor-pointer text-white hover:bg-slate-300 px-5 hover:text-black text-start     duration-300 rounded my-1">Portal</p>
+                    </Link>
 
+                    <button
+                        className='button1 cursor-pointer text-white hover:bg-slate-300 px-5 hover:text-black text-start   duration-300 rounded my-1'>
+                        <a href="tel:+998935960506">+998 93 596 05 06</a></button>
+                    <br/>
+                    <button
+                        className='button2 cursor-pointer text-white hover:bg-slate-300 px-5 hover:text-black text-start   duration-300 rounded my-1'>Ru
+                    </button>
 
-     )
+                </div>
+            </div>
+
+            }
+        </>
+
+    )
 }
