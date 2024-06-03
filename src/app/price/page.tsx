@@ -10,7 +10,7 @@ const page = () => {
                             <h1>Narxlarimiz</h1>
                         </div>
                         <div className="sinflar">
-                            <div className="ajral">
+                            <div data-aos="fade-right"  className="ajral">
                                 <div className='sinf1'>
                                     <h4>1-4 o'zbek sinflar uchun</h4>
                                 </div>
@@ -18,14 +18,14 @@ const page = () => {
                                     <h4>Qolgan barcha sinflar uchun</h4>
                                 </div>
                             </div>
-                            <div className="ajralma">
+                            <div data-aos="fade-left"  className="ajralma">
                                 <div className='oshxona'>
                                     <h4>Oshxona to'lovi</h4>
                                 </div>
                             </div>
                         </div>
                         <div className="pul">
-                            <div className='ajral2'>
+                            <div data-aos="fade-right"  className='ajral2'>
                                 <div className='million4'>
                                     <h1>4 110 000 soʻm</h1>
                                 </div>
@@ -33,7 +33,7 @@ const page = () => {
                                     <h1>4 690 000 soʻm</h1>
                                 </div>
                             </div>
-                            <div className='mahal'>
+                            <div data-aos="fade-left"  className='mahal'>
                                 <div className='birxil'>
                                     <h3>1 mahal</h3>
                                     <h4>490 000 <span>so'm</span></h4>

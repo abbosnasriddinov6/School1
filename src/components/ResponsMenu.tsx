@@ -14,16 +14,18 @@ const AddHidden =  () => {
 
      return (
 
+         <div data-aos="fade-right" className="w-full z-50 absolute top-0 right-0 h-full flex  justify-center  header">
+             <div className="relative bg-black w-full   flex-col   py-20  ">
+                 {/*<i */}
+                 {/*   className="fa-solid fa-xmark absolute text-white top-4 right-4 text-xl cursor-pointer hover:text-red-500 "></i>*/}
+                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">Use
+                     Cases</h2>
+                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">About</h2>
+                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">Prising</h2>
+                 <h2 className="text-white px-4 my-2 duration-300  roundeed-lg  cursor-pointer hover:bg-slate-300 w-full py-1  hover:text-black ">Blog</h2>
+             </div>
+         </div>
 
-        <div className="absolute  responMenu ">
-            <div className="max-w-[300px] relative pt-10  bg-white rounded-lg px-10 py-20 max-h-[300px] mt-20 overflow-hidden">
-                <IoIosExit onClick={() => AddHidden() } className="absolute top-2 right-4 text-red-500 hover:text-red-600 text-2xl cursor-pointer"/>
-                <Link href='/about' ><p className="py-2 hover:bg-slate-300 px-10 rounded duration-300">Maktab haqida</p></Link>
-                <Link href='/price'><p className="py-2 hover:bg-slate-300 px-10 rounded duration-300">Stipendiyalar</p></Link>
-                <Link href='/qabuljarayon'><p className="py-2 hover:bg-slate-300 px-10 rounded duration-300">Qabul jarayoni</p></Link>
-                <p className="py-2 hover:bg-slate-300 px-10 rounded duration-300">Bog'lanish</p>
-                <p className="py-2 hover:bg-slate-300 px-10 rounded duration-300">Portal</p>
-            </div>
-        </div>
-    )
+
+     )
 }

@@ -20,7 +20,7 @@ const MaxsusTalim = () => {
 
                         <div className="grid lg:grid-cols-3 sm:grid-cols-2  w-full mx-auto gap-5">
 
-                            <div className="px-10 flex   py-3 bg-[#e5f3ff] rounded-3xl relative group lg:flex-col flex flex-col-reverse justify-between">
+                            <div data-aos="fade-down" className="px-10 flex   py-3 bg-[#e5f3ff] rounded-3xl relative group lg:flex-col flex flex-col-reverse justify-between">
                                 <div className="group">
                                     <FaMedal
                                         className="absolute top-0 left-0 bg-white text-4xl group-hover:rotate-45 rounded-full w-10 h-10 duration-500 text-yellow-300  z-20" />
@@ -34,7 +34,7 @@ const MaxsusTalim = () => {
                                     alt="" />
                             </div>
 
-                        <div className="px-10 flex   py-3 bg-[#e5f3ff] rounded-3xl relative group lg:flex-col flex flex-col-reverse justify-between">
+                        <div data-aos="fade-down" className="px-10 flex   py-3 bg-[#e5f3ff] rounded-3xl relative group lg:flex-col flex flex-col-reverse justify-between">
                             <div className="group">
                                 <FaClock
                                     className="absolute top-0 left-0 bg-white text-4xl group-hover:rotate-45 rounded-full w-10 h-10 duration-500 text-green-500  z-20"/>
@@ -46,7 +46,7 @@ const MaxsusTalim = () => {
                             <img className="rounded-3xl lg:mt-20 bg-contain sm:mt-32 mt-16 py-4 " src="https://grantlar.uz/wp-content/uploads/2018/03/person-984236_1280.jpg" alt=""/>
                         </div>
 
-                        <div className="px-10 flex   py-3 bg-[#e5f3ff] rounded-3xl relative group lg:flex-col flex flex-col-reverse justify-between">
+                        <div data-aos="fade-down" className="px-10 flex   py-3 bg-[#e5f3ff] rounded-3xl relative group lg:flex-col flex flex-col-reverse justify-between">
                             <div className="group">
                                 <TfiBlackboard
                                     className="absolute top-0 left-0 bg-white text-4xl group-hover:rotate-12 rounded-full w-10 h-10 duration-500 text-yellow-300  z-20"/>
