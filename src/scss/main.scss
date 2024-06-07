@@ -1,5 +1,9 @@
 @import'./global.scss';
 
+html{
+    overflow-x: hidden;
+}
+
 .qondaye{
     background-image: url(//img.freepik.com/fotos-premium/persona-escribiendo-teclado-calculadora-fondo_889227-13440.jpg);
     background-repeat: no-repeat;

@@ -28,7 +28,7 @@ const Header = () => {
 
     return (
 
-        <div className="relative">
+        <div className="relative ">
 
             <div className="absolute top-0 left-0 min-h-[40vh]   flex justify-center ">
                 <div className=" ">
