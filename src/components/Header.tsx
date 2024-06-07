@@ -27,15 +27,8 @@ const Header = () => {
 
 
     return (
-        <>
 
-<<<<<<< HEAD
         <div className="relative ">
-=======
->>>>>>> 3a2d8f6df7b6dab5cb769f12086ae7ca41dcc637
-
-
-
 
             <header className="head text-gray-600 body-font relative w-full ">
 
@@ -104,9 +97,9 @@ const Header = () => {
                     </header>
                 </header>
             </div>
+        </div>
 
 
-        </>
     )
 }
 
