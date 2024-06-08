@@ -5,7 +5,7 @@ import { bar, logo } from '@/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MdMenu } from "react-icons/md";
-import ResponsMenu from "@/components/ResponsMenu";
+import ResponsMenu from "@/components/res-menu/ResponsMenu";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
@@ -67,7 +67,7 @@ const Header = () => {
             <div className="relative">
 
                 <div className="absolute top-0 left-0 min-h-[40vh]   flex justify-center ">
-                    <div className=" ">
+                    <div className="fixed z-30 bg-white ">
                         <ResponsMenu isOpen={showMenu} setShowMenu={setShowMenu} />
                     </div>
                 </div>
