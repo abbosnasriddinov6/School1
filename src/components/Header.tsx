@@ -30,11 +30,8 @@ const Header = () => {
 
 
     return (
-        <>
 
-
-
-
+        <div className="relative ">
 
             {/* <header className="head text-gray-600 body-font relative w-full ">
 
@@ -103,9 +100,9 @@ const Header = () => {
                     </header>
                 </header>
             </div>
+        </div>
 
 
-        </>
     )
 }
 
