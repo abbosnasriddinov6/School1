@@ -9,9 +9,12 @@ import ResponsMenu from "@/components/ResponsMenu";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import { typelar } from '@/store/Types'
 
 
 const Header = () => {
+    // const { products, loading, getproducts } = typelar()
+    // const { showMenu } = typelar{}
     useEffect(() => {
         AOS.init({
             duration: 800,
@@ -33,7 +36,7 @@ const Header = () => {
 
 
 
-            <header className="head text-gray-600 body-font relative w-full ">
+            {/* <header className="head text-gray-600 body-font relative w-full ">
 
                 <div className=" container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <div className="Header">
@@ -46,10 +49,10 @@ const Header = () => {
                                 <Link href='/about'><p>Maktab haqida</p></Link>
                                 <Link href='/price'><p>Stipendiyalar</p></Link>
                                 <Link href='/qabuljarayon'><p>Qabul jarayoni</p></Link>
-                                <a href="tel:+998935960506"><p>Bog'lanish</p></a>
+                                <a href="tel:+998781130005"><p>Bog'lanish</p></a>
                                 <Link href='/registernow'><p>Portal</p></Link>
                             </nav>
-                            <button className='button1'><a href="tel:+998935960506">+998 93 596 05 06</a></button>
+                            <button className='button1'><a href="tel:+998781130005">+998781130005</a></button>
                             <button className='button2'>Ru</button>
 
                             {showMenu && <div
@@ -62,7 +65,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </header>
+            </header> */}
 
             <div className="relative">
 
@@ -86,10 +89,10 @@ const Header = () => {
                                         <Link href='/about'><p>Maktab haqida</p></Link>
                                         <Link href='/price'><p>Stipendiyalar</p></Link>
                                         <Link href='/qabuljarayon'><p>Qabul jarayoni</p></Link>
-                                        <a href="tel:+998935960506"><p>Bog`lanish</p></a>
+                                        <a href="tel:+998781130005"><p>Bog`lanish</p></a>
                                         <Link href='/registernow'><p>Portal</p></Link>
                                     </nav>
-                                    <button className='button1'><a href="tel:+998935960506">+998 93 596 05 06</a></button>
+                                    <button className='button1'><a href="tel:+998781130005">+998 78 113 00 05</a></button>
                                     <button className='button2'>Ru</button>
 
 

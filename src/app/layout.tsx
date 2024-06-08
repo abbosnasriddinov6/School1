@@ -17,16 +17,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <html lang="en">
+    <html lang="en">
       <body className={inter.className}>
 
-      <Header/>
-      <main className="">{children}</main>
-      <Footer/>
+        <Header />
+        <main className="">{children}</main>
+        <Footer />
       </body>
-  <script
-      type="text/javascript"
-      src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-      </html>
-);
+      <script
+        type="text/javascript"
+        src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    </html>
+  );
 }

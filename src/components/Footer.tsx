@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <>
 
-          <section className="text-white body-font bg-[#36b872] border-r-4  ">
+          <section className="text-white body-font bg-[#36b872] mt-[30px] border-r-4  ">
           <div className='max-w-[1440px]  mx-auto'>
           <div  className=" grid sm:grid-cols-3 px-5 py-20 gap-2 ">
 
